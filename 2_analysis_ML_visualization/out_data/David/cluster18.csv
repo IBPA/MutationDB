@@ -1,0 +1,12 @@
+Term,PValue,Genes
+GO:0009252~peptidoglycan biosynthetic process,0.072003956,"MURF, PBPG"
+GO:0006024~glycosaminoglycan biosynthetic process,0.072003956,"MURF, PBPG"
+GO:0006023~aminoglycan biosynthetic process,0.072003956,"MURF, PBPG"
+GO:0044038~cell wall macromolecule biosynthetic process,0.074513559,"MURF, PBPG"
+GO:0070589~cellular component macromolecule biosynthetic process,0.074513559,"MURF, PBPG"
+GO:0010382~cellular cell wall macromolecule metabolic process,0.075348685,"MURF, PBPG"
+GO:0022604~regulation of cell morphogenesis,0.075348685,"MURF, PBPG"
+GO:0008360~regulation of cell shape,0.075348685,"MURF, PBPG"
+GO:0042546~cell wall biogenesis,0.081174901,"MURF, PBPG"
+GO:0009273~peptidoglycan-based cell wall biogenesis,0.081174901,"MURF, PBPG"
+GO:0000271~polysaccharide biosynthetic process,0.082948664,"MURF, PBPG, WECA"

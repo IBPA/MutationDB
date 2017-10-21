@@ -1,0 +1,13 @@
+Term,PValue,Genes
+GO:0046685~response to arsenic,9.64E-05,"ARSB, ARSC, ARSR"
+GO:0015833~peptide transport,1.45E-04,"DPPB, DPPD, DPPC, DTPB, DPPA"
+GO:0016052~carbohydrate catabolic process,9.61E-04,"GHRB, DCTA, MALX, LYXK, KDGK, SGBE, BCSZ, XYLB"
+GO:0030243~cellulose metabolic process,0.001193477,"BCSB, BCSA, BCSZ"
+GO:0045184~establishment of protein localization,0.0022901,"DPPB, DPPD, DPPC, DPPA, YHII, YIAV, MDTE"
+GO:0015031~protein transport,0.0022901,"DPPB, DPPD, DPPC, DPPA, YHII, YIAV, MDTE"
+GO:0008104~protein localization,0.002490208,"DPPB, DPPD, DPPC, DPPA, YHII, YIAV, MDTE"
+GO:0044042~glucan metabolic process,0.008202994,"BCSB, BCSA, BCSZ"
+GO:0010035~response to inorganic substance,0.012143165,"ARSB, ARSC, ARSR"
+GO:0006011~UDP-glucose metabolic process,0.042879788,"BCSB, BCSA"
+GO:0030244~cellulose biosynthetic process,0.042879788,"BCSB, BCSA"
+GO:0042493~response to drug,0.064442555,"ARSC, ARSR, YHJX"
