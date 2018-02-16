@@ -1,0 +1,20 @@
+#!/bin/bash
+count=0
+sed -i '14,$d' ./all_job.pbs
+for j in `seq 47 1 49`
+#have submitt 1989 jobs
+#submit to 14
+do
+  for i in {0..1990}
+  do
+    echo $((count++))
+    sed -i "s/FFN.py.*/FFN.py ${i} $j \&/g" one_job.pbs
+    cat one_job.pbs >> all_job.pbs
+    if [[ $((count%12)) -eq 0 ||  $count == 5970 ]]; then
+       echo "wait" >> all_job.pbs
+       qsub ./all_job.pbs >> jobID
+       cat all_job.pbs >> jobID
+       sed -i '14,$d' ./all_job.pbs
+    fi
+  done
+done 

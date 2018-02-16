@@ -1,0 +1,80 @@
+Using TensorFlow backend.
+Using TensorFlow backend.
+2018-02-04 05:13:05.765396: I /dev/shm/cmaclean/python-single/portage/dev-python/tensorflow-1.3.0/work/tensorflow-1.3.0/tensorflow/core/common_runtime/gpu/gpu_device.cc:955] Found device 0 with properties: 
+name: Tesla K20X
+major: 3 minor: 5 memoryClockRate (GHz) 0.732
+pciBusID 0000:02:00.0
+Total memory: 5.62GiB
+Free memory: 5.52GiB
+2018-02-04 05:13:05.765459: I /dev/shm/cmaclean/python-single/portage/dev-python/tensorflow-1.3.0/work/tensorflow-1.3.0/tensorflow/core/common_runtime/gpu/gpu_device.cc:976] DMA: 0 
+2018-02-04 05:13:05.765478: I /dev/shm/cmaclean/python-single/portage/dev-python/tensorflow-1.3.0/work/tensorflow-1.3.0/tensorflow/core/common_runtime/gpu/gpu_device.cc:986] 0:   Y 
+2018-02-04 05:13:05.765508: I /dev/shm/cmaclean/python-single/portage/dev-python/tensorflow-1.3.0/work/tensorflow-1.3.0/tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K20X, pci bus id: 0000:02:00.0)
+2018-02-04 05:13:05.807672: I /dev/shm/cmaclean/python-single/portage/dev-python/tensorflow-1.3.0/work/tensorflow-1.3.0/tensorflow/core/common_runtime/gpu/gpu_device.cc:955] Found device 0 with properties: 
+name: Tesla K20X
+major: 3 minor: 5 memoryClockRate (GHz) 0.732
+pciBusID 0000:02:00.0
+Total memory: 5.62GiB
+Free memory: 5.52GiB
+2018-02-04 05:13:05.807726: I /dev/shm/cmaclean/python-single/portage/dev-python/tensorflow-1.3.0/work/tensorflow-1.3.0/tensorflow/core/common_runtime/gpu/gpu_device.cc:976] DMA: 0 
+2018-02-04 05:13:05.807746: I /dev/shm/cmaclean/python-single/portage/dev-python/tensorflow-1.3.0/work/tensorflow-1.3.0/tensorflow/core/common_runtime/gpu/gpu_device.cc:986] 0:   Y 
+2018-02-04 05:13:05.807776: I /dev/shm/cmaclean/python-single/portage/dev-python/tensorflow-1.3.0/work/tensorflow-1.3.0/tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K20X, pci bus id: 0000:02:00.0)
+Using TensorFlow backend.
+Using TensorFlow backend.
+2018-02-04 05:14:25.494510: I /dev/shm/cmaclean/python-single/portage/dev-python/tensorflow-1.3.0/work/tensorflow-1.3.0/tensorflow/core/common_runtime/gpu/gpu_device.cc:955] Found device 0 with properties: 
+name: Tesla K20X
+major: 3 minor: 5 memoryClockRate (GHz) 0.732
+pciBusID 0000:02:00.0
+Total memory: 5.62GiB
+Free memory: 5.52GiB
+2018-02-04 05:14:25.494568: I /dev/shm/cmaclean/python-single/portage/dev-python/tensorflow-1.3.0/work/tensorflow-1.3.0/tensorflow/core/common_runtime/gpu/gpu_device.cc:976] DMA: 0 
+2018-02-04 05:14:25.494587: I /dev/shm/cmaclean/python-single/portage/dev-python/tensorflow-1.3.0/work/tensorflow-1.3.0/tensorflow/core/common_runtime/gpu/gpu_device.cc:986] 0:   Y 
+2018-02-04 05:14:25.494617: I /dev/shm/cmaclean/python-single/portage/dev-python/tensorflow-1.3.0/work/tensorflow-1.3.0/tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K20X, pci bus id: 0000:02:00.0)
+2018-02-04 05:14:25.764434: I /dev/shm/cmaclean/python-single/portage/dev-python/tensorflow-1.3.0/work/tensorflow-1.3.0/tensorflow/core/common_runtime/gpu/gpu_device.cc:955] Found device 0 with properties: 
+name: Tesla K20X
+major: 3 minor: 5 memoryClockRate (GHz) 0.732
+pciBusID 0000:02:00.0
+Total memory: 5.62GiB
+Free memory: 5.52GiB
+2018-02-04 05:14:25.764494: I /dev/shm/cmaclean/python-single/portage/dev-python/tensorflow-1.3.0/work/tensorflow-1.3.0/tensorflow/core/common_runtime/gpu/gpu_device.cc:976] DMA: 0 
+2018-02-04 05:14:25.764513: I /dev/shm/cmaclean/python-single/portage/dev-python/tensorflow-1.3.0/work/tensorflow-1.3.0/tensorflow/core/common_runtime/gpu/gpu_device.cc:986] 0:   Y 
+2018-02-04 05:14:25.764543: I /dev/shm/cmaclean/python-single/portage/dev-python/tensorflow-1.3.0/work/tensorflow-1.3.0/tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K20X, pci bus id: 0000:02:00.0)
+Using TensorFlow backend.
+Using TensorFlow backend.
+2018-02-04 05:15:40.029839: I /dev/shm/cmaclean/python-single/portage/dev-python/tensorflow-1.3.0/work/tensorflow-1.3.0/tensorflow/core/common_runtime/gpu/gpu_device.cc:955] Found device 0 with properties: 
+name: Tesla K20X
+major: 3 minor: 5 memoryClockRate (GHz) 0.732
+pciBusID 0000:02:00.0
+Total memory: 5.62GiB
+Free memory: 5.52GiB
+2018-02-04 05:15:40.029898: I /dev/shm/cmaclean/python-single/portage/dev-python/tensorflow-1.3.0/work/tensorflow-1.3.0/tensorflow/core/common_runtime/gpu/gpu_device.cc:976] DMA: 0 
+2018-02-04 05:15:40.029920: I /dev/shm/cmaclean/python-single/portage/dev-python/tensorflow-1.3.0/work/tensorflow-1.3.0/tensorflow/core/common_runtime/gpu/gpu_device.cc:986] 0:   Y 
+2018-02-04 05:15:40.029950: I /dev/shm/cmaclean/python-single/portage/dev-python/tensorflow-1.3.0/work/tensorflow-1.3.0/tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K20X, pci bus id: 0000:02:00.0)
+2018-02-04 05:15:45.311252: I /dev/shm/cmaclean/python-single/portage/dev-python/tensorflow-1.3.0/work/tensorflow-1.3.0/tensorflow/core/common_runtime/gpu/gpu_device.cc:955] Found device 0 with properties: 
+name: Tesla K20X
+major: 3 minor: 5 memoryClockRate (GHz) 0.732
+pciBusID 0000:02:00.0
+Total memory: 5.62GiB
+Free memory: 5.52GiB
+2018-02-04 05:15:45.311311: I /dev/shm/cmaclean/python-single/portage/dev-python/tensorflow-1.3.0/work/tensorflow-1.3.0/tensorflow/core/common_runtime/gpu/gpu_device.cc:976] DMA: 0 
+2018-02-04 05:15:45.311330: I /dev/shm/cmaclean/python-single/portage/dev-python/tensorflow-1.3.0/work/tensorflow-1.3.0/tensorflow/core/common_runtime/gpu/gpu_device.cc:986] 0:   Y 
+2018-02-04 05:15:45.311360: I /dev/shm/cmaclean/python-single/portage/dev-python/tensorflow-1.3.0/work/tensorflow-1.3.0/tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K20X, pci bus id: 0000:02:00.0)
+Using TensorFlow backend.
+Using TensorFlow backend.
+2018-02-04 05:16:53.664252: I /dev/shm/cmaclean/python-single/portage/dev-python/tensorflow-1.3.0/work/tensorflow-1.3.0/tensorflow/core/common_runtime/gpu/gpu_device.cc:955] Found device 0 with properties: 
+name: Tesla K20X
+major: 3 minor: 5 memoryClockRate (GHz) 0.732
+pciBusID 0000:02:00.0
+Total memory: 5.62GiB
+Free memory: 5.52GiB
+2018-02-04 05:16:53.664310: I /dev/shm/cmaclean/python-single/portage/dev-python/tensorflow-1.3.0/work/tensorflow-1.3.0/tensorflow/core/common_runtime/gpu/gpu_device.cc:976] DMA: 0 
+2018-02-04 05:16:53.664329: I /dev/shm/cmaclean/python-single/portage/dev-python/tensorflow-1.3.0/work/tensorflow-1.3.0/tensorflow/core/common_runtime/gpu/gpu_device.cc:986] 0:   Y 
+2018-02-04 05:16:53.664359: I /dev/shm/cmaclean/python-single/portage/dev-python/tensorflow-1.3.0/work/tensorflow-1.3.0/tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K20X, pci bus id: 0000:02:00.0)
+2018-02-04 05:16:57.816761: I /dev/shm/cmaclean/python-single/portage/dev-python/tensorflow-1.3.0/work/tensorflow-1.3.0/tensorflow/core/common_runtime/gpu/gpu_device.cc:955] Found device 0 with properties: 
+name: Tesla K20X
+major: 3 minor: 5 memoryClockRate (GHz) 0.732
+pciBusID 0000:02:00.0
+Total memory: 5.62GiB
+Free memory: 5.52GiB
+2018-02-04 05:16:57.816819: I /dev/shm/cmaclean/python-single/portage/dev-python/tensorflow-1.3.0/work/tensorflow-1.3.0/tensorflow/core/common_runtime/gpu/gpu_device.cc:976] DMA: 0 
+2018-02-04 05:16:57.816838: I /dev/shm/cmaclean/python-single/portage/dev-python/tensorflow-1.3.0/work/tensorflow-1.3.0/tensorflow/core/common_runtime/gpu/gpu_device.cc:986] 0:   Y 
+2018-02-04 05:16:57.816868: I /dev/shm/cmaclean/python-single/portage/dev-python/tensorflow-1.3.0/work/tensorflow-1.3.0/tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K20X, pci bus id: 0000:02:00.0)

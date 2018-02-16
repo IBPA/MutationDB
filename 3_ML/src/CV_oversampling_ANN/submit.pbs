@@ -1,0 +1,18 @@
+#!/bin/bash
+count=0
+sed -i '14,$d' ./all_job.pbs
+for ratio in {2..5}
+do
+  for i in {0..1990}
+  do
+    echo $((count++))
+    sed -i "s/FFN.py.*/FFN.py ${i} ${ratio} \&/g" one_job.pbs
+    cat one_job.pbs >> all_job.pbs
+    if [[ $((count%8)) -eq 0 ||  $count == 7960 ]]; then
+       echo "wait" >> all_job.pbs
+       qsub ./all_job.pbs >> jobID
+       cat all_job.pbs >> jobID
+       sed -i '14,$d' ./all_job.pbs
+    fi
+  done
+done

@@ -1,0 +1,3091 @@
+start
+8056378.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 1 1 &
+aprun -d 2 Rscript feature_selection.R 2 1 &
+aprun -d 2 Rscript feature_selection.R 3 1 &
+aprun -d 2 Rscript feature_selection.R 4 1 &
+aprun -d 2 Rscript feature_selection.R 5 1 &
+aprun -d 2 Rscript feature_selection.R 6 1 &
+aprun -d 2 Rscript feature_selection.R 7 1 &
+aprun -d 2 Rscript feature_selection.R 8 1 &
+aprun -d 2 Rscript feature_selection.R 9 1 &
+aprun -d 2 Rscript feature_selection.R 10 1 &
+aprun -d 2 Rscript feature_selection.R 11 1 &
+aprun -d 2 Rscript feature_selection.R 12 1 &
+aprun -d 2 Rscript feature_selection.R 13 1 &
+aprun -d 2 Rscript feature_selection.R 14 1 &
+aprun -d 2 Rscript feature_selection.R 15 1 &
+aprun -d 2 Rscript feature_selection.R 16 1 &
+aprun -d 2 Rscript feature_selection.R 17 1 &
+aprun -d 2 Rscript feature_selection.R 18 1 &
+aprun -d 2 Rscript feature_selection.R 19 1 &
+aprun -d 2 Rscript feature_selection.R 20 1 &
+wait
+8056379.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 21 1 &
+aprun -d 2 Rscript feature_selection.R 22 1 &
+aprun -d 2 Rscript feature_selection.R 23 1 &
+aprun -d 2 Rscript feature_selection.R 24 1 &
+aprun -d 2 Rscript feature_selection.R 25 1 &
+aprun -d 2 Rscript feature_selection.R 26 1 &
+aprun -d 2 Rscript feature_selection.R 27 1 &
+aprun -d 2 Rscript feature_selection.R 28 1 &
+aprun -d 2 Rscript feature_selection.R 29 1 &
+aprun -d 2 Rscript feature_selection.R 30 1 &
+aprun -d 2 Rscript feature_selection.R 31 1 &
+aprun -d 2 Rscript feature_selection.R 32 1 &
+aprun -d 2 Rscript feature_selection.R 33 1 &
+aprun -d 2 Rscript feature_selection.R 34 1 &
+aprun -d 2 Rscript feature_selection.R 35 1 &
+aprun -d 2 Rscript feature_selection.R 36 1 &
+aprun -d 2 Rscript feature_selection.R 37 1 &
+aprun -d 2 Rscript feature_selection.R 38 1 &
+aprun -d 2 Rscript feature_selection.R 39 1 &
+aprun -d 2 Rscript feature_selection.R 40 1 &
+wait
+8056380.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 41 1 &
+aprun -d 2 Rscript feature_selection.R 42 1 &
+aprun -d 2 Rscript feature_selection.R 43 1 &
+aprun -d 2 Rscript feature_selection.R 44 1 &
+aprun -d 2 Rscript feature_selection.R 45 1 &
+aprun -d 2 Rscript feature_selection.R 46 1 &
+aprun -d 2 Rscript feature_selection.R 47 1 &
+aprun -d 2 Rscript feature_selection.R 48 1 &
+aprun -d 2 Rscript feature_selection.R 49 1 &
+aprun -d 2 Rscript feature_selection.R 50 1 &
+aprun -d 2 Rscript feature_selection.R 51 1 &
+aprun -d 2 Rscript feature_selection.R 52 1 &
+aprun -d 2 Rscript feature_selection.R 53 1 &
+aprun -d 2 Rscript feature_selection.R 54 1 &
+aprun -d 2 Rscript feature_selection.R 55 1 &
+aprun -d 2 Rscript feature_selection.R 56 1 &
+aprun -d 2 Rscript feature_selection.R 57 1 &
+aprun -d 2 Rscript feature_selection.R 58 1 &
+aprun -d 2 Rscript feature_selection.R 59 1 &
+aprun -d 2 Rscript feature_selection.R 60 1 &
+wait
+8056381.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 61 1 &
+aprun -d 2 Rscript feature_selection.R 62 1 &
+aprun -d 2 Rscript feature_selection.R 63 1 &
+aprun -d 2 Rscript feature_selection.R 64 1 &
+aprun -d 2 Rscript feature_selection.R 65 1 &
+aprun -d 2 Rscript feature_selection.R 66 1 &
+aprun -d 2 Rscript feature_selection.R 67 1 &
+aprun -d 2 Rscript feature_selection.R 68 1 &
+aprun -d 2 Rscript feature_selection.R 69 1 &
+aprun -d 2 Rscript feature_selection.R 70 1 &
+aprun -d 2 Rscript feature_selection.R 71 1 &
+aprun -d 2 Rscript feature_selection.R 72 1 &
+aprun -d 2 Rscript feature_selection.R 73 1 &
+aprun -d 2 Rscript feature_selection.R 74 1 &
+aprun -d 2 Rscript feature_selection.R 75 1 &
+aprun -d 2 Rscript feature_selection.R 76 1 &
+aprun -d 2 Rscript feature_selection.R 77 1 &
+aprun -d 2 Rscript feature_selection.R 78 1 &
+aprun -d 2 Rscript feature_selection.R 79 1 &
+aprun -d 2 Rscript feature_selection.R 80 1 &
+wait
+8056382.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 81 1 &
+aprun -d 2 Rscript feature_selection.R 82 1 &
+aprun -d 2 Rscript feature_selection.R 83 1 &
+aprun -d 2 Rscript feature_selection.R 84 1 &
+aprun -d 2 Rscript feature_selection.R 85 1 &
+aprun -d 2 Rscript feature_selection.R 86 1 &
+aprun -d 2 Rscript feature_selection.R 87 1 &
+aprun -d 2 Rscript feature_selection.R 88 1 &
+aprun -d 2 Rscript feature_selection.R 89 1 &
+aprun -d 2 Rscript feature_selection.R 90 1 &
+aprun -d 2 Rscript feature_selection.R 91 1 &
+aprun -d 2 Rscript feature_selection.R 92 1 &
+aprun -d 2 Rscript feature_selection.R 93 1 &
+aprun -d 2 Rscript feature_selection.R 94 1 &
+aprun -d 2 Rscript feature_selection.R 95 1 &
+aprun -d 2 Rscript feature_selection.R 96 1 &
+aprun -d 2 Rscript feature_selection.R 97 1 &
+aprun -d 2 Rscript feature_selection.R 98 1 &
+aprun -d 2 Rscript feature_selection.R 99 1 &
+aprun -d 2 Rscript feature_selection.R 100 1 &
+wait
+8056383.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 101 1 &
+aprun -d 2 Rscript feature_selection.R 102 1 &
+aprun -d 2 Rscript feature_selection.R 103 1 &
+aprun -d 2 Rscript feature_selection.R 104 1 &
+aprun -d 2 Rscript feature_selection.R 105 1 &
+aprun -d 2 Rscript feature_selection.R 106 1 &
+aprun -d 2 Rscript feature_selection.R 107 1 &
+aprun -d 2 Rscript feature_selection.R 108 1 &
+aprun -d 2 Rscript feature_selection.R 109 1 &
+aprun -d 2 Rscript feature_selection.R 110 1 &
+aprun -d 2 Rscript feature_selection.R 111 1 &
+aprun -d 2 Rscript feature_selection.R 112 1 &
+aprun -d 2 Rscript feature_selection.R 113 1 &
+aprun -d 2 Rscript feature_selection.R 114 1 &
+aprun -d 2 Rscript feature_selection.R 115 1 &
+aprun -d 2 Rscript feature_selection.R 116 1 &
+aprun -d 2 Rscript feature_selection.R 117 1 &
+aprun -d 2 Rscript feature_selection.R 118 1 &
+aprun -d 2 Rscript feature_selection.R 119 1 &
+aprun -d 2 Rscript feature_selection.R 120 1 &
+wait
+8056384.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 121 1 &
+aprun -d 2 Rscript feature_selection.R 122 1 &
+aprun -d 2 Rscript feature_selection.R 123 1 &
+aprun -d 2 Rscript feature_selection.R 124 1 &
+aprun -d 2 Rscript feature_selection.R 125 1 &
+aprun -d 2 Rscript feature_selection.R 126 1 &
+aprun -d 2 Rscript feature_selection.R 127 1 &
+aprun -d 2 Rscript feature_selection.R 128 1 &
+aprun -d 2 Rscript feature_selection.R 129 1 &
+aprun -d 2 Rscript feature_selection.R 130 1 &
+aprun -d 2 Rscript feature_selection.R 131 1 &
+aprun -d 2 Rscript feature_selection.R 132 1 &
+aprun -d 2 Rscript feature_selection.R 133 1 &
+aprun -d 2 Rscript feature_selection.R 134 1 &
+aprun -d 2 Rscript feature_selection.R 135 1 &
+aprun -d 2 Rscript feature_selection.R 136 1 &
+aprun -d 2 Rscript feature_selection.R 137 1 &
+aprun -d 2 Rscript feature_selection.R 138 1 &
+aprun -d 2 Rscript feature_selection.R 139 1 &
+aprun -d 2 Rscript feature_selection.R 140 1 &
+wait
+8056385.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 141 1 &
+aprun -d 2 Rscript feature_selection.R 142 1 &
+aprun -d 2 Rscript feature_selection.R 143 1 &
+aprun -d 2 Rscript feature_selection.R 144 1 &
+aprun -d 2 Rscript feature_selection.R 145 1 &
+aprun -d 2 Rscript feature_selection.R 146 1 &
+aprun -d 2 Rscript feature_selection.R 147 1 &
+aprun -d 2 Rscript feature_selection.R 148 1 &
+aprun -d 2 Rscript feature_selection.R 149 1 &
+aprun -d 2 Rscript feature_selection.R 150 1 &
+aprun -d 2 Rscript feature_selection.R 151 1 &
+aprun -d 2 Rscript feature_selection.R 152 1 &
+aprun -d 2 Rscript feature_selection.R 153 1 &
+aprun -d 2 Rscript feature_selection.R 154 1 &
+aprun -d 2 Rscript feature_selection.R 155 1 &
+aprun -d 2 Rscript feature_selection.R 156 1 &
+aprun -d 2 Rscript feature_selection.R 157 1 &
+aprun -d 2 Rscript feature_selection.R 158 1 &
+aprun -d 2 Rscript feature_selection.R 159 1 &
+aprun -d 2 Rscript feature_selection.R 160 1 &
+wait
+8056386.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 161 1 &
+aprun -d 2 Rscript feature_selection.R 162 1 &
+aprun -d 2 Rscript feature_selection.R 163 1 &
+aprun -d 2 Rscript feature_selection.R 164 1 &
+aprun -d 2 Rscript feature_selection.R 165 1 &
+aprun -d 2 Rscript feature_selection.R 166 1 &
+aprun -d 2 Rscript feature_selection.R 167 1 &
+aprun -d 2 Rscript feature_selection.R 168 1 &
+aprun -d 2 Rscript feature_selection.R 169 1 &
+aprun -d 2 Rscript feature_selection.R 170 1 &
+aprun -d 2 Rscript feature_selection.R 171 1 &
+aprun -d 2 Rscript feature_selection.R 172 1 &
+aprun -d 2 Rscript feature_selection.R 173 1 &
+aprun -d 2 Rscript feature_selection.R 174 1 &
+aprun -d 2 Rscript feature_selection.R 175 1 &
+aprun -d 2 Rscript feature_selection.R 176 1 &
+aprun -d 2 Rscript feature_selection.R 177 1 &
+aprun -d 2 Rscript feature_selection.R 178 1 &
+aprun -d 2 Rscript feature_selection.R 179 1 &
+aprun -d 2 Rscript feature_selection.R 180 1 &
+wait
+8056387.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 181 1 &
+aprun -d 2 Rscript feature_selection.R 182 1 &
+aprun -d 2 Rscript feature_selection.R 183 1 &
+aprun -d 2 Rscript feature_selection.R 184 1 &
+aprun -d 2 Rscript feature_selection.R 185 1 &
+aprun -d 2 Rscript feature_selection.R 186 1 &
+aprun -d 2 Rscript feature_selection.R 187 1 &
+aprun -d 2 Rscript feature_selection.R 188 1 &
+aprun -d 2 Rscript feature_selection.R 189 1 &
+aprun -d 2 Rscript feature_selection.R 190 1 &
+aprun -d 2 Rscript feature_selection.R 191 1 &
+aprun -d 2 Rscript feature_selection.R 192 1 &
+aprun -d 2 Rscript feature_selection.R 193 1 &
+aprun -d 2 Rscript feature_selection.R 194 1 &
+aprun -d 2 Rscript feature_selection.R 195 1 &
+aprun -d 2 Rscript feature_selection.R 196 1 &
+aprun -d 2 Rscript feature_selection.R 197 1 &
+aprun -d 2 Rscript feature_selection.R 198 1 &
+aprun -d 2 Rscript feature_selection.R 199 1 &
+aprun -d 2 Rscript feature_selection.R 200 1 &
+wait
+8056388.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 201 1 &
+aprun -d 2 Rscript feature_selection.R 202 1 &
+aprun -d 2 Rscript feature_selection.R 203 1 &
+aprun -d 2 Rscript feature_selection.R 204 1 &
+aprun -d 2 Rscript feature_selection.R 205 1 &
+aprun -d 2 Rscript feature_selection.R 206 1 &
+aprun -d 2 Rscript feature_selection.R 207 1 &
+aprun -d 2 Rscript feature_selection.R 208 1 &
+aprun -d 2 Rscript feature_selection.R 209 1 &
+aprun -d 2 Rscript feature_selection.R 210 1 &
+aprun -d 2 Rscript feature_selection.R 211 1 &
+aprun -d 2 Rscript feature_selection.R 212 1 &
+aprun -d 2 Rscript feature_selection.R 213 1 &
+aprun -d 2 Rscript feature_selection.R 214 1 &
+aprun -d 2 Rscript feature_selection.R 215 1 &
+aprun -d 2 Rscript feature_selection.R 216 1 &
+aprun -d 2 Rscript feature_selection.R 217 1 &
+aprun -d 2 Rscript feature_selection.R 218 1 &
+aprun -d 2 Rscript feature_selection.R 219 1 &
+aprun -d 2 Rscript feature_selection.R 220 1 &
+wait
+8056389.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 221 1 &
+aprun -d 2 Rscript feature_selection.R 222 1 &
+aprun -d 2 Rscript feature_selection.R 223 1 &
+aprun -d 2 Rscript feature_selection.R 224 1 &
+aprun -d 2 Rscript feature_selection.R 225 1 &
+aprun -d 2 Rscript feature_selection.R 226 1 &
+aprun -d 2 Rscript feature_selection.R 227 1 &
+aprun -d 2 Rscript feature_selection.R 228 1 &
+aprun -d 2 Rscript feature_selection.R 229 1 &
+aprun -d 2 Rscript feature_selection.R 230 1 &
+aprun -d 2 Rscript feature_selection.R 231 1 &
+aprun -d 2 Rscript feature_selection.R 232 1 &
+aprun -d 2 Rscript feature_selection.R 233 1 &
+aprun -d 2 Rscript feature_selection.R 234 1 &
+aprun -d 2 Rscript feature_selection.R 235 1 &
+aprun -d 2 Rscript feature_selection.R 236 1 &
+aprun -d 2 Rscript feature_selection.R 237 1 &
+aprun -d 2 Rscript feature_selection.R 238 1 &
+aprun -d 2 Rscript feature_selection.R 239 1 &
+aprun -d 2 Rscript feature_selection.R 240 1 &
+wait
+8056390.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 241 1 &
+aprun -d 2 Rscript feature_selection.R 242 1 &
+aprun -d 2 Rscript feature_selection.R 243 1 &
+aprun -d 2 Rscript feature_selection.R 244 1 &
+aprun -d 2 Rscript feature_selection.R 245 1 &
+aprun -d 2 Rscript feature_selection.R 246 1 &
+aprun -d 2 Rscript feature_selection.R 247 1 &
+aprun -d 2 Rscript feature_selection.R 248 1 &
+aprun -d 2 Rscript feature_selection.R 249 1 &
+aprun -d 2 Rscript feature_selection.R 250 1 &
+aprun -d 2 Rscript feature_selection.R 251 1 &
+aprun -d 2 Rscript feature_selection.R 252 1 &
+aprun -d 2 Rscript feature_selection.R 253 1 &
+aprun -d 2 Rscript feature_selection.R 254 1 &
+aprun -d 2 Rscript feature_selection.R 255 1 &
+aprun -d 2 Rscript feature_selection.R 256 1 &
+aprun -d 2 Rscript feature_selection.R 257 1 &
+aprun -d 2 Rscript feature_selection.R 258 1 &
+aprun -d 2 Rscript feature_selection.R 259 1 &
+aprun -d 2 Rscript feature_selection.R 260 1 &
+wait
+8056391.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 261 1 &
+aprun -d 2 Rscript feature_selection.R 262 1 &
+aprun -d 2 Rscript feature_selection.R 263 1 &
+aprun -d 2 Rscript feature_selection.R 264 1 &
+aprun -d 2 Rscript feature_selection.R 265 1 &
+aprun -d 2 Rscript feature_selection.R 266 1 &
+aprun -d 2 Rscript feature_selection.R 267 1 &
+aprun -d 2 Rscript feature_selection.R 268 1 &
+aprun -d 2 Rscript feature_selection.R 269 1 &
+aprun -d 2 Rscript feature_selection.R 270 1 &
+aprun -d 2 Rscript feature_selection.R 271 1 &
+aprun -d 2 Rscript feature_selection.R 272 1 &
+aprun -d 2 Rscript feature_selection.R 273 1 &
+aprun -d 2 Rscript feature_selection.R 274 1 &
+aprun -d 2 Rscript feature_selection.R 275 1 &
+aprun -d 2 Rscript feature_selection.R 276 1 &
+aprun -d 2 Rscript feature_selection.R 277 1 &
+aprun -d 2 Rscript feature_selection.R 278 1 &
+aprun -d 2 Rscript feature_selection.R 279 1 &
+aprun -d 2 Rscript feature_selection.R 280 1 &
+wait
+8056392.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 281 1 &
+aprun -d 2 Rscript feature_selection.R 282 1 &
+aprun -d 2 Rscript feature_selection.R 283 1 &
+aprun -d 2 Rscript feature_selection.R 284 1 &
+aprun -d 2 Rscript feature_selection.R 285 1 &
+aprun -d 2 Rscript feature_selection.R 286 1 &
+aprun -d 2 Rscript feature_selection.R 287 1 &
+aprun -d 2 Rscript feature_selection.R 288 1 &
+aprun -d 2 Rscript feature_selection.R 289 1 &
+aprun -d 2 Rscript feature_selection.R 290 1 &
+aprun -d 2 Rscript feature_selection.R 291 1 &
+aprun -d 2 Rscript feature_selection.R 292 1 &
+aprun -d 2 Rscript feature_selection.R 293 1 &
+aprun -d 2 Rscript feature_selection.R 294 1 &
+aprun -d 2 Rscript feature_selection.R 295 1 &
+aprun -d 2 Rscript feature_selection.R 296 1 &
+aprun -d 2 Rscript feature_selection.R 297 1 &
+aprun -d 2 Rscript feature_selection.R 298 1 &
+aprun -d 2 Rscript feature_selection.R 299 1 &
+aprun -d 2 Rscript feature_selection.R 300 1 &
+wait
+8056393.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 301 1 &
+aprun -d 2 Rscript feature_selection.R 302 1 &
+aprun -d 2 Rscript feature_selection.R 303 1 &
+aprun -d 2 Rscript feature_selection.R 304 1 &
+aprun -d 2 Rscript feature_selection.R 305 1 &
+aprun -d 2 Rscript feature_selection.R 306 1 &
+aprun -d 2 Rscript feature_selection.R 307 1 &
+aprun -d 2 Rscript feature_selection.R 308 1 &
+aprun -d 2 Rscript feature_selection.R 309 1 &
+aprun -d 2 Rscript feature_selection.R 310 1 &
+aprun -d 2 Rscript feature_selection.R 311 1 &
+aprun -d 2 Rscript feature_selection.R 312 1 &
+aprun -d 2 Rscript feature_selection.R 313 1 &
+aprun -d 2 Rscript feature_selection.R 314 1 &
+aprun -d 2 Rscript feature_selection.R 315 1 &
+aprun -d 2 Rscript feature_selection.R 316 1 &
+aprun -d 2 Rscript feature_selection.R 317 1 &
+aprun -d 2 Rscript feature_selection.R 318 1 &
+aprun -d 2 Rscript feature_selection.R 319 1 &
+aprun -d 2 Rscript feature_selection.R 320 1 &
+wait
+8056394.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 321 1 &
+aprun -d 2 Rscript feature_selection.R 322 1 &
+aprun -d 2 Rscript feature_selection.R 323 1 &
+aprun -d 2 Rscript feature_selection.R 324 1 &
+aprun -d 2 Rscript feature_selection.R 325 1 &
+aprun -d 2 Rscript feature_selection.R 326 1 &
+aprun -d 2 Rscript feature_selection.R 327 1 &
+aprun -d 2 Rscript feature_selection.R 328 1 &
+aprun -d 2 Rscript feature_selection.R 329 1 &
+aprun -d 2 Rscript feature_selection.R 330 1 &
+aprun -d 2 Rscript feature_selection.R 331 1 &
+aprun -d 2 Rscript feature_selection.R 332 1 &
+aprun -d 2 Rscript feature_selection.R 333 1 &
+aprun -d 2 Rscript feature_selection.R 334 1 &
+aprun -d 2 Rscript feature_selection.R 335 1 &
+aprun -d 2 Rscript feature_selection.R 336 1 &
+aprun -d 2 Rscript feature_selection.R 337 1 &
+aprun -d 2 Rscript feature_selection.R 338 1 &
+aprun -d 2 Rscript feature_selection.R 339 1 &
+aprun -d 2 Rscript feature_selection.R 340 1 &
+wait
+8056395.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 341 1 &
+aprun -d 2 Rscript feature_selection.R 342 1 &
+aprun -d 2 Rscript feature_selection.R 343 1 &
+aprun -d 2 Rscript feature_selection.R 344 1 &
+aprun -d 2 Rscript feature_selection.R 345 1 &
+aprun -d 2 Rscript feature_selection.R 346 1 &
+aprun -d 2 Rscript feature_selection.R 347 1 &
+aprun -d 2 Rscript feature_selection.R 348 1 &
+aprun -d 2 Rscript feature_selection.R 349 1 &
+aprun -d 2 Rscript feature_selection.R 350 1 &
+aprun -d 2 Rscript feature_selection.R 351 1 &
+aprun -d 2 Rscript feature_selection.R 352 1 &
+aprun -d 2 Rscript feature_selection.R 353 1 &
+aprun -d 2 Rscript feature_selection.R 354 1 &
+aprun -d 2 Rscript feature_selection.R 355 1 &
+aprun -d 2 Rscript feature_selection.R 356 1 &
+aprun -d 2 Rscript feature_selection.R 357 1 &
+aprun -d 2 Rscript feature_selection.R 358 1 &
+aprun -d 2 Rscript feature_selection.R 359 1 &
+aprun -d 2 Rscript feature_selection.R 360 1 &
+wait
+8056396.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 361 1 &
+aprun -d 2 Rscript feature_selection.R 362 1 &
+aprun -d 2 Rscript feature_selection.R 363 1 &
+aprun -d 2 Rscript feature_selection.R 364 1 &
+aprun -d 2 Rscript feature_selection.R 365 1 &
+aprun -d 2 Rscript feature_selection.R 366 1 &
+aprun -d 2 Rscript feature_selection.R 367 1 &
+aprun -d 2 Rscript feature_selection.R 368 1 &
+aprun -d 2 Rscript feature_selection.R 369 1 &
+aprun -d 2 Rscript feature_selection.R 370 1 &
+aprun -d 2 Rscript feature_selection.R 371 1 &
+aprun -d 2 Rscript feature_selection.R 372 1 &
+aprun -d 2 Rscript feature_selection.R 373 1 &
+aprun -d 2 Rscript feature_selection.R 374 1 &
+aprun -d 2 Rscript feature_selection.R 375 1 &
+aprun -d 2 Rscript feature_selection.R 376 1 &
+aprun -d 2 Rscript feature_selection.R 377 1 &
+aprun -d 2 Rscript feature_selection.R 378 1 &
+aprun -d 2 Rscript feature_selection.R 379 1 &
+aprun -d 2 Rscript feature_selection.R 380 1 &
+wait
+8056397.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 381 1 &
+aprun -d 2 Rscript feature_selection.R 382 1 &
+aprun -d 2 Rscript feature_selection.R 383 1 &
+aprun -d 2 Rscript feature_selection.R 384 1 &
+aprun -d 2 Rscript feature_selection.R 385 1 &
+aprun -d 2 Rscript feature_selection.R 386 1 &
+aprun -d 2 Rscript feature_selection.R 387 1 &
+aprun -d 2 Rscript feature_selection.R 388 1 &
+aprun -d 2 Rscript feature_selection.R 389 1 &
+aprun -d 2 Rscript feature_selection.R 390 1 &
+aprun -d 2 Rscript feature_selection.R 391 1 &
+aprun -d 2 Rscript feature_selection.R 392 1 &
+aprun -d 2 Rscript feature_selection.R 393 1 &
+aprun -d 2 Rscript feature_selection.R 394 1 &
+aprun -d 2 Rscript feature_selection.R 395 1 &
+aprun -d 2 Rscript feature_selection.R 396 1 &
+aprun -d 2 Rscript feature_selection.R 397 1 &
+aprun -d 2 Rscript feature_selection.R 398 1 &
+aprun -d 2 Rscript feature_selection.R 399 1 &
+aprun -d 2 Rscript feature_selection.R 400 1 &
+wait
+8056398.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 401 1 &
+aprun -d 2 Rscript feature_selection.R 402 1 &
+aprun -d 2 Rscript feature_selection.R 403 1 &
+aprun -d 2 Rscript feature_selection.R 404 1 &
+aprun -d 2 Rscript feature_selection.R 405 1 &
+aprun -d 2 Rscript feature_selection.R 406 1 &
+aprun -d 2 Rscript feature_selection.R 407 1 &
+aprun -d 2 Rscript feature_selection.R 408 1 &
+aprun -d 2 Rscript feature_selection.R 409 1 &
+aprun -d 2 Rscript feature_selection.R 410 1 &
+aprun -d 2 Rscript feature_selection.R 411 1 &
+aprun -d 2 Rscript feature_selection.R 412 1 &
+aprun -d 2 Rscript feature_selection.R 413 1 &
+aprun -d 2 Rscript feature_selection.R 414 1 &
+aprun -d 2 Rscript feature_selection.R 415 1 &
+aprun -d 2 Rscript feature_selection.R 416 1 &
+aprun -d 2 Rscript feature_selection.R 417 1 &
+aprun -d 2 Rscript feature_selection.R 418 1 &
+aprun -d 2 Rscript feature_selection.R 419 1 &
+aprun -d 2 Rscript feature_selection.R 420 1 &
+wait
+8056399.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 421 1 &
+aprun -d 2 Rscript feature_selection.R 422 1 &
+aprun -d 2 Rscript feature_selection.R 423 1 &
+aprun -d 2 Rscript feature_selection.R 424 1 &
+aprun -d 2 Rscript feature_selection.R 425 1 &
+aprun -d 2 Rscript feature_selection.R 426 1 &
+aprun -d 2 Rscript feature_selection.R 427 1 &
+aprun -d 2 Rscript feature_selection.R 428 1 &
+aprun -d 2 Rscript feature_selection.R 429 1 &
+aprun -d 2 Rscript feature_selection.R 430 1 &
+aprun -d 2 Rscript feature_selection.R 431 1 &
+aprun -d 2 Rscript feature_selection.R 432 1 &
+aprun -d 2 Rscript feature_selection.R 433 1 &
+aprun -d 2 Rscript feature_selection.R 434 1 &
+aprun -d 2 Rscript feature_selection.R 435 1 &
+aprun -d 2 Rscript feature_selection.R 436 1 &
+aprun -d 2 Rscript feature_selection.R 437 1 &
+aprun -d 2 Rscript feature_selection.R 438 1 &
+aprun -d 2 Rscript feature_selection.R 439 1 &
+aprun -d 2 Rscript feature_selection.R 440 1 &
+wait
+8056400.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 441 1 &
+aprun -d 2 Rscript feature_selection.R 442 1 &
+aprun -d 2 Rscript feature_selection.R 443 1 &
+aprun -d 2 Rscript feature_selection.R 444 1 &
+aprun -d 2 Rscript feature_selection.R 445 1 &
+aprun -d 2 Rscript feature_selection.R 446 1 &
+aprun -d 2 Rscript feature_selection.R 447 1 &
+aprun -d 2 Rscript feature_selection.R 448 1 &
+aprun -d 2 Rscript feature_selection.R 449 1 &
+aprun -d 2 Rscript feature_selection.R 450 1 &
+aprun -d 2 Rscript feature_selection.R 451 1 &
+aprun -d 2 Rscript feature_selection.R 452 1 &
+aprun -d 2 Rscript feature_selection.R 453 1 &
+aprun -d 2 Rscript feature_selection.R 454 1 &
+aprun -d 2 Rscript feature_selection.R 455 1 &
+aprun -d 2 Rscript feature_selection.R 456 1 &
+aprun -d 2 Rscript feature_selection.R 457 1 &
+aprun -d 2 Rscript feature_selection.R 458 1 &
+aprun -d 2 Rscript feature_selection.R 459 1 &
+aprun -d 2 Rscript feature_selection.R 460 1 &
+wait
+8056401.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 461 1 &
+aprun -d 2 Rscript feature_selection.R 462 1 &
+aprun -d 2 Rscript feature_selection.R 463 1 &
+aprun -d 2 Rscript feature_selection.R 464 1 &
+aprun -d 2 Rscript feature_selection.R 465 1 &
+aprun -d 2 Rscript feature_selection.R 466 1 &
+aprun -d 2 Rscript feature_selection.R 467 1 &
+aprun -d 2 Rscript feature_selection.R 468 1 &
+aprun -d 2 Rscript feature_selection.R 469 1 &
+aprun -d 2 Rscript feature_selection.R 470 1 &
+aprun -d 2 Rscript feature_selection.R 471 1 &
+aprun -d 2 Rscript feature_selection.R 472 1 &
+aprun -d 2 Rscript feature_selection.R 473 1 &
+aprun -d 2 Rscript feature_selection.R 474 1 &
+aprun -d 2 Rscript feature_selection.R 475 1 &
+aprun -d 2 Rscript feature_selection.R 476 1 &
+aprun -d 2 Rscript feature_selection.R 477 1 &
+aprun -d 2 Rscript feature_selection.R 478 1 &
+aprun -d 2 Rscript feature_selection.R 479 1 &
+aprun -d 2 Rscript feature_selection.R 480 1 &
+wait
+8056402.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 481 1 &
+aprun -d 2 Rscript feature_selection.R 482 1 &
+aprun -d 2 Rscript feature_selection.R 483 1 &
+aprun -d 2 Rscript feature_selection.R 484 1 &
+aprun -d 2 Rscript feature_selection.R 485 1 &
+aprun -d 2 Rscript feature_selection.R 486 1 &
+aprun -d 2 Rscript feature_selection.R 487 1 &
+aprun -d 2 Rscript feature_selection.R 488 1 &
+aprun -d 2 Rscript feature_selection.R 489 1 &
+aprun -d 2 Rscript feature_selection.R 490 1 &
+aprun -d 2 Rscript feature_selection.R 491 1 &
+aprun -d 2 Rscript feature_selection.R 492 1 &
+aprun -d 2 Rscript feature_selection.R 493 1 &
+aprun -d 2 Rscript feature_selection.R 494 1 &
+aprun -d 2 Rscript feature_selection.R 495 1 &
+aprun -d 2 Rscript feature_selection.R 496 1 &
+aprun -d 2 Rscript feature_selection.R 497 1 &
+aprun -d 2 Rscript feature_selection.R 498 1 &
+aprun -d 2 Rscript feature_selection.R 499 1 &
+aprun -d 2 Rscript feature_selection.R 500 1 &
+wait
+8056403.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 501 1 &
+aprun -d 2 Rscript feature_selection.R 502 1 &
+aprun -d 2 Rscript feature_selection.R 503 1 &
+aprun -d 2 Rscript feature_selection.R 504 1 &
+aprun -d 2 Rscript feature_selection.R 505 1 &
+aprun -d 2 Rscript feature_selection.R 506 1 &
+aprun -d 2 Rscript feature_selection.R 507 1 &
+aprun -d 2 Rscript feature_selection.R 508 1 &
+aprun -d 2 Rscript feature_selection.R 509 1 &
+aprun -d 2 Rscript feature_selection.R 510 1 &
+aprun -d 2 Rscript feature_selection.R 511 1 &
+aprun -d 2 Rscript feature_selection.R 512 1 &
+aprun -d 2 Rscript feature_selection.R 513 1 &
+aprun -d 2 Rscript feature_selection.R 514 1 &
+aprun -d 2 Rscript feature_selection.R 515 1 &
+aprun -d 2 Rscript feature_selection.R 516 1 &
+aprun -d 2 Rscript feature_selection.R 517 1 &
+aprun -d 2 Rscript feature_selection.R 518 1 &
+aprun -d 2 Rscript feature_selection.R 519 1 &
+aprun -d 2 Rscript feature_selection.R 520 1 &
+wait
+8056404.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 521 1 &
+aprun -d 2 Rscript feature_selection.R 522 1 &
+aprun -d 2 Rscript feature_selection.R 523 1 &
+aprun -d 2 Rscript feature_selection.R 524 1 &
+aprun -d 2 Rscript feature_selection.R 525 1 &
+aprun -d 2 Rscript feature_selection.R 526 1 &
+aprun -d 2 Rscript feature_selection.R 527 1 &
+aprun -d 2 Rscript feature_selection.R 528 1 &
+aprun -d 2 Rscript feature_selection.R 529 1 &
+aprun -d 2 Rscript feature_selection.R 530 1 &
+aprun -d 2 Rscript feature_selection.R 531 1 &
+aprun -d 2 Rscript feature_selection.R 532 1 &
+aprun -d 2 Rscript feature_selection.R 533 1 &
+aprun -d 2 Rscript feature_selection.R 534 1 &
+aprun -d 2 Rscript feature_selection.R 535 1 &
+aprun -d 2 Rscript feature_selection.R 536 1 &
+aprun -d 2 Rscript feature_selection.R 537 1 &
+aprun -d 2 Rscript feature_selection.R 538 1 &
+aprun -d 2 Rscript feature_selection.R 539 1 &
+aprun -d 2 Rscript feature_selection.R 540 1 &
+wait
+8056405.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 541 1 &
+aprun -d 2 Rscript feature_selection.R 542 1 &
+aprun -d 2 Rscript feature_selection.R 543 1 &
+aprun -d 2 Rscript feature_selection.R 544 1 &
+aprun -d 2 Rscript feature_selection.R 545 1 &
+aprun -d 2 Rscript feature_selection.R 546 1 &
+aprun -d 2 Rscript feature_selection.R 547 1 &
+aprun -d 2 Rscript feature_selection.R 548 1 &
+aprun -d 2 Rscript feature_selection.R 549 1 &
+aprun -d 2 Rscript feature_selection.R 550 1 &
+aprun -d 2 Rscript feature_selection.R 551 1 &
+aprun -d 2 Rscript feature_selection.R 552 1 &
+aprun -d 2 Rscript feature_selection.R 553 1 &
+aprun -d 2 Rscript feature_selection.R 554 1 &
+aprun -d 2 Rscript feature_selection.R 555 1 &
+aprun -d 2 Rscript feature_selection.R 556 1 &
+aprun -d 2 Rscript feature_selection.R 557 1 &
+aprun -d 2 Rscript feature_selection.R 558 1 &
+aprun -d 2 Rscript feature_selection.R 559 1 &
+aprun -d 2 Rscript feature_selection.R 560 1 &
+wait
+8056406.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 561 1 &
+aprun -d 2 Rscript feature_selection.R 562 1 &
+aprun -d 2 Rscript feature_selection.R 563 1 &
+aprun -d 2 Rscript feature_selection.R 564 1 &
+aprun -d 2 Rscript feature_selection.R 565 1 &
+aprun -d 2 Rscript feature_selection.R 566 1 &
+aprun -d 2 Rscript feature_selection.R 567 1 &
+aprun -d 2 Rscript feature_selection.R 568 1 &
+aprun -d 2 Rscript feature_selection.R 569 1 &
+aprun -d 2 Rscript feature_selection.R 570 1 &
+aprun -d 2 Rscript feature_selection.R 571 1 &
+aprun -d 2 Rscript feature_selection.R 572 1 &
+aprun -d 2 Rscript feature_selection.R 573 1 &
+aprun -d 2 Rscript feature_selection.R 574 1 &
+aprun -d 2 Rscript feature_selection.R 575 1 &
+aprun -d 2 Rscript feature_selection.R 576 1 &
+aprun -d 2 Rscript feature_selection.R 577 1 &
+aprun -d 2 Rscript feature_selection.R 578 1 &
+aprun -d 2 Rscript feature_selection.R 579 1 &
+aprun -d 2 Rscript feature_selection.R 580 1 &
+wait
+8056407.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 581 1 &
+aprun -d 2 Rscript feature_selection.R 582 1 &
+aprun -d 2 Rscript feature_selection.R 583 1 &
+aprun -d 2 Rscript feature_selection.R 584 1 &
+aprun -d 2 Rscript feature_selection.R 585 1 &
+aprun -d 2 Rscript feature_selection.R 586 1 &
+aprun -d 2 Rscript feature_selection.R 587 1 &
+aprun -d 2 Rscript feature_selection.R 588 1 &
+aprun -d 2 Rscript feature_selection.R 589 1 &
+aprun -d 2 Rscript feature_selection.R 590 1 &
+aprun -d 2 Rscript feature_selection.R 591 1 &
+aprun -d 2 Rscript feature_selection.R 592 1 &
+aprun -d 2 Rscript feature_selection.R 593 1 &
+aprun -d 2 Rscript feature_selection.R 594 1 &
+aprun -d 2 Rscript feature_selection.R 595 1 &
+aprun -d 2 Rscript feature_selection.R 596 1 &
+aprun -d 2 Rscript feature_selection.R 597 1 &
+aprun -d 2 Rscript feature_selection.R 598 1 &
+aprun -d 2 Rscript feature_selection.R 599 1 &
+aprun -d 2 Rscript feature_selection.R 600 1 &
+wait
+8056408.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 601 1 &
+aprun -d 2 Rscript feature_selection.R 602 1 &
+aprun -d 2 Rscript feature_selection.R 603 1 &
+aprun -d 2 Rscript feature_selection.R 604 1 &
+aprun -d 2 Rscript feature_selection.R 605 1 &
+aprun -d 2 Rscript feature_selection.R 606 1 &
+aprun -d 2 Rscript feature_selection.R 607 1 &
+aprun -d 2 Rscript feature_selection.R 608 1 &
+aprun -d 2 Rscript feature_selection.R 609 1 &
+aprun -d 2 Rscript feature_selection.R 610 1 &
+aprun -d 2 Rscript feature_selection.R 611 1 &
+aprun -d 2 Rscript feature_selection.R 612 1 &
+aprun -d 2 Rscript feature_selection.R 613 1 &
+aprun -d 2 Rscript feature_selection.R 614 1 &
+aprun -d 2 Rscript feature_selection.R 615 1 &
+aprun -d 2 Rscript feature_selection.R 616 1 &
+aprun -d 2 Rscript feature_selection.R 617 1 &
+aprun -d 2 Rscript feature_selection.R 618 1 &
+aprun -d 2 Rscript feature_selection.R 619 1 &
+aprun -d 2 Rscript feature_selection.R 620 1 &
+wait
+8056409.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 621 1 &
+aprun -d 2 Rscript feature_selection.R 622 1 &
+aprun -d 2 Rscript feature_selection.R 623 1 &
+aprun -d 2 Rscript feature_selection.R 624 1 &
+aprun -d 2 Rscript feature_selection.R 625 1 &
+aprun -d 2 Rscript feature_selection.R 626 1 &
+aprun -d 2 Rscript feature_selection.R 627 1 &
+aprun -d 2 Rscript feature_selection.R 628 1 &
+aprun -d 2 Rscript feature_selection.R 629 1 &
+aprun -d 2 Rscript feature_selection.R 630 1 &
+aprun -d 2 Rscript feature_selection.R 631 1 &
+aprun -d 2 Rscript feature_selection.R 632 1 &
+aprun -d 2 Rscript feature_selection.R 633 1 &
+aprun -d 2 Rscript feature_selection.R 634 1 &
+aprun -d 2 Rscript feature_selection.R 635 1 &
+aprun -d 2 Rscript feature_selection.R 636 1 &
+aprun -d 2 Rscript feature_selection.R 637 1 &
+aprun -d 2 Rscript feature_selection.R 638 1 &
+aprun -d 2 Rscript feature_selection.R 639 1 &
+aprun -d 2 Rscript feature_selection.R 640 1 &
+wait
+8056410.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 641 1 &
+aprun -d 2 Rscript feature_selection.R 642 1 &
+aprun -d 2 Rscript feature_selection.R 643 1 &
+aprun -d 2 Rscript feature_selection.R 644 1 &
+aprun -d 2 Rscript feature_selection.R 645 1 &
+aprun -d 2 Rscript feature_selection.R 646 1 &
+aprun -d 2 Rscript feature_selection.R 647 1 &
+aprun -d 2 Rscript feature_selection.R 648 1 &
+aprun -d 2 Rscript feature_selection.R 649 1 &
+aprun -d 2 Rscript feature_selection.R 650 1 &
+aprun -d 2 Rscript feature_selection.R 651 1 &
+aprun -d 2 Rscript feature_selection.R 652 1 &
+aprun -d 2 Rscript feature_selection.R 653 1 &
+aprun -d 2 Rscript feature_selection.R 654 1 &
+aprun -d 2 Rscript feature_selection.R 655 1 &
+aprun -d 2 Rscript feature_selection.R 656 1 &
+aprun -d 2 Rscript feature_selection.R 657 1 &
+aprun -d 2 Rscript feature_selection.R 658 1 &
+aprun -d 2 Rscript feature_selection.R 659 1 &
+aprun -d 2 Rscript feature_selection.R 660 1 &
+wait
+8056411.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 661 1 &
+aprun -d 2 Rscript feature_selection.R 662 1 &
+aprun -d 2 Rscript feature_selection.R 663 1 &
+aprun -d 2 Rscript feature_selection.R 664 1 &
+aprun -d 2 Rscript feature_selection.R 665 1 &
+aprun -d 2 Rscript feature_selection.R 666 1 &
+aprun -d 2 Rscript feature_selection.R 667 1 &
+aprun -d 2 Rscript feature_selection.R 668 1 &
+aprun -d 2 Rscript feature_selection.R 669 1 &
+aprun -d 2 Rscript feature_selection.R 670 1 &
+aprun -d 2 Rscript feature_selection.R 671 1 &
+aprun -d 2 Rscript feature_selection.R 672 1 &
+aprun -d 2 Rscript feature_selection.R 673 1 &
+aprun -d 2 Rscript feature_selection.R 674 1 &
+aprun -d 2 Rscript feature_selection.R 675 1 &
+aprun -d 2 Rscript feature_selection.R 676 1 &
+aprun -d 2 Rscript feature_selection.R 677 1 &
+aprun -d 2 Rscript feature_selection.R 678 1 &
+aprun -d 2 Rscript feature_selection.R 679 1 &
+aprun -d 2 Rscript feature_selection.R 680 1 &
+wait
+8056412.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 681 1 &
+aprun -d 2 Rscript feature_selection.R 682 1 &
+aprun -d 2 Rscript feature_selection.R 683 1 &
+aprun -d 2 Rscript feature_selection.R 684 1 &
+aprun -d 2 Rscript feature_selection.R 685 1 &
+aprun -d 2 Rscript feature_selection.R 686 1 &
+aprun -d 2 Rscript feature_selection.R 687 1 &
+aprun -d 2 Rscript feature_selection.R 688 1 &
+aprun -d 2 Rscript feature_selection.R 689 1 &
+aprun -d 2 Rscript feature_selection.R 690 1 &
+aprun -d 2 Rscript feature_selection.R 691 1 &
+aprun -d 2 Rscript feature_selection.R 692 1 &
+aprun -d 2 Rscript feature_selection.R 693 1 &
+aprun -d 2 Rscript feature_selection.R 694 1 &
+aprun -d 2 Rscript feature_selection.R 695 1 &
+aprun -d 2 Rscript feature_selection.R 696 1 &
+aprun -d 2 Rscript feature_selection.R 697 1 &
+aprun -d 2 Rscript feature_selection.R 698 1 &
+aprun -d 2 Rscript feature_selection.R 699 1 &
+aprun -d 2 Rscript feature_selection.R 700 1 &
+wait
+8056413.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 701 1 &
+aprun -d 2 Rscript feature_selection.R 702 1 &
+aprun -d 2 Rscript feature_selection.R 703 1 &
+aprun -d 2 Rscript feature_selection.R 704 1 &
+aprun -d 2 Rscript feature_selection.R 705 1 &
+aprun -d 2 Rscript feature_selection.R 706 1 &
+aprun -d 2 Rscript feature_selection.R 707 1 &
+aprun -d 2 Rscript feature_selection.R 708 1 &
+aprun -d 2 Rscript feature_selection.R 709 1 &
+aprun -d 2 Rscript feature_selection.R 710 1 &
+aprun -d 2 Rscript feature_selection.R 711 1 &
+aprun -d 2 Rscript feature_selection.R 712 1 &
+aprun -d 2 Rscript feature_selection.R 713 1 &
+aprun -d 2 Rscript feature_selection.R 714 1 &
+aprun -d 2 Rscript feature_selection.R 715 1 &
+aprun -d 2 Rscript feature_selection.R 716 1 &
+aprun -d 2 Rscript feature_selection.R 717 1 &
+aprun -d 2 Rscript feature_selection.R 718 1 &
+aprun -d 2 Rscript feature_selection.R 719 1 &
+aprun -d 2 Rscript feature_selection.R 720 1 &
+wait
+8056414.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 721 1 &
+aprun -d 2 Rscript feature_selection.R 722 1 &
+aprun -d 2 Rscript feature_selection.R 723 1 &
+aprun -d 2 Rscript feature_selection.R 724 1 &
+aprun -d 2 Rscript feature_selection.R 725 1 &
+aprun -d 2 Rscript feature_selection.R 726 1 &
+aprun -d 2 Rscript feature_selection.R 727 1 &
+aprun -d 2 Rscript feature_selection.R 728 1 &
+aprun -d 2 Rscript feature_selection.R 729 1 &
+aprun -d 2 Rscript feature_selection.R 730 1 &
+aprun -d 2 Rscript feature_selection.R 731 1 &
+aprun -d 2 Rscript feature_selection.R 732 1 &
+aprun -d 2 Rscript feature_selection.R 733 1 &
+aprun -d 2 Rscript feature_selection.R 734 1 &
+aprun -d 2 Rscript feature_selection.R 735 1 &
+aprun -d 2 Rscript feature_selection.R 736 1 &
+aprun -d 2 Rscript feature_selection.R 737 1 &
+aprun -d 2 Rscript feature_selection.R 738 1 &
+aprun -d 2 Rscript feature_selection.R 739 1 &
+aprun -d 2 Rscript feature_selection.R 740 1 &
+wait
+8056415.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 741 1 &
+aprun -d 2 Rscript feature_selection.R 742 1 &
+aprun -d 2 Rscript feature_selection.R 743 1 &
+aprun -d 2 Rscript feature_selection.R 744 1 &
+aprun -d 2 Rscript feature_selection.R 745 1 &
+aprun -d 2 Rscript feature_selection.R 746 1 &
+aprun -d 2 Rscript feature_selection.R 747 1 &
+aprun -d 2 Rscript feature_selection.R 748 1 &
+aprun -d 2 Rscript feature_selection.R 749 1 &
+aprun -d 2 Rscript feature_selection.R 750 1 &
+aprun -d 2 Rscript feature_selection.R 751 1 &
+aprun -d 2 Rscript feature_selection.R 752 1 &
+aprun -d 2 Rscript feature_selection.R 753 1 &
+aprun -d 2 Rscript feature_selection.R 754 1 &
+aprun -d 2 Rscript feature_selection.R 755 1 &
+aprun -d 2 Rscript feature_selection.R 756 1 &
+aprun -d 2 Rscript feature_selection.R 757 1 &
+aprun -d 2 Rscript feature_selection.R 758 1 &
+aprun -d 2 Rscript feature_selection.R 759 1 &
+aprun -d 2 Rscript feature_selection.R 760 1 &
+wait
+8056416.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 761 1 &
+aprun -d 2 Rscript feature_selection.R 762 1 &
+aprun -d 2 Rscript feature_selection.R 763 1 &
+aprun -d 2 Rscript feature_selection.R 764 1 &
+aprun -d 2 Rscript feature_selection.R 765 1 &
+aprun -d 2 Rscript feature_selection.R 766 1 &
+aprun -d 2 Rscript feature_selection.R 767 1 &
+aprun -d 2 Rscript feature_selection.R 768 1 &
+aprun -d 2 Rscript feature_selection.R 769 1 &
+aprun -d 2 Rscript feature_selection.R 770 1 &
+aprun -d 2 Rscript feature_selection.R 771 1 &
+aprun -d 2 Rscript feature_selection.R 772 1 &
+aprun -d 2 Rscript feature_selection.R 773 1 &
+aprun -d 2 Rscript feature_selection.R 774 1 &
+aprun -d 2 Rscript feature_selection.R 775 1 &
+aprun -d 2 Rscript feature_selection.R 776 1 &
+aprun -d 2 Rscript feature_selection.R 777 1 &
+aprun -d 2 Rscript feature_selection.R 778 1 &
+aprun -d 2 Rscript feature_selection.R 779 1 &
+aprun -d 2 Rscript feature_selection.R 780 1 &
+wait
+8056417.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 781 1 &
+aprun -d 2 Rscript feature_selection.R 782 1 &
+aprun -d 2 Rscript feature_selection.R 783 1 &
+aprun -d 2 Rscript feature_selection.R 784 1 &
+aprun -d 2 Rscript feature_selection.R 785 1 &
+aprun -d 2 Rscript feature_selection.R 786 1 &
+aprun -d 2 Rscript feature_selection.R 787 1 &
+aprun -d 2 Rscript feature_selection.R 788 1 &
+aprun -d 2 Rscript feature_selection.R 789 1 &
+aprun -d 2 Rscript feature_selection.R 790 1 &
+aprun -d 2 Rscript feature_selection.R 791 1 &
+aprun -d 2 Rscript feature_selection.R 792 1 &
+aprun -d 2 Rscript feature_selection.R 793 1 &
+aprun -d 2 Rscript feature_selection.R 794 1 &
+aprun -d 2 Rscript feature_selection.R 795 1 &
+aprun -d 2 Rscript feature_selection.R 796 1 &
+aprun -d 2 Rscript feature_selection.R 797 1 &
+aprun -d 2 Rscript feature_selection.R 798 1 &
+aprun -d 2 Rscript feature_selection.R 799 1 &
+aprun -d 2 Rscript feature_selection.R 800 1 &
+wait
+8056418.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 801 1 &
+aprun -d 2 Rscript feature_selection.R 802 1 &
+aprun -d 2 Rscript feature_selection.R 803 1 &
+aprun -d 2 Rscript feature_selection.R 804 1 &
+aprun -d 2 Rscript feature_selection.R 805 1 &
+aprun -d 2 Rscript feature_selection.R 806 1 &
+aprun -d 2 Rscript feature_selection.R 807 1 &
+aprun -d 2 Rscript feature_selection.R 808 1 &
+aprun -d 2 Rscript feature_selection.R 809 1 &
+aprun -d 2 Rscript feature_selection.R 810 1 &
+aprun -d 2 Rscript feature_selection.R 811 1 &
+aprun -d 2 Rscript feature_selection.R 812 1 &
+aprun -d 2 Rscript feature_selection.R 813 1 &
+aprun -d 2 Rscript feature_selection.R 814 1 &
+aprun -d 2 Rscript feature_selection.R 815 1 &
+aprun -d 2 Rscript feature_selection.R 816 1 &
+aprun -d 2 Rscript feature_selection.R 817 1 &
+aprun -d 2 Rscript feature_selection.R 818 1 &
+aprun -d 2 Rscript feature_selection.R 819 1 &
+aprun -d 2 Rscript feature_selection.R 820 1 &
+wait
+8056419.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 821 1 &
+aprun -d 2 Rscript feature_selection.R 822 1 &
+aprun -d 2 Rscript feature_selection.R 823 1 &
+aprun -d 2 Rscript feature_selection.R 824 1 &
+aprun -d 2 Rscript feature_selection.R 825 1 &
+aprun -d 2 Rscript feature_selection.R 826 1 &
+aprun -d 2 Rscript feature_selection.R 827 1 &
+aprun -d 2 Rscript feature_selection.R 828 1 &
+aprun -d 2 Rscript feature_selection.R 829 1 &
+aprun -d 2 Rscript feature_selection.R 830 1 &
+aprun -d 2 Rscript feature_selection.R 831 1 &
+aprun -d 2 Rscript feature_selection.R 832 1 &
+aprun -d 2 Rscript feature_selection.R 833 1 &
+aprun -d 2 Rscript feature_selection.R 834 1 &
+aprun -d 2 Rscript feature_selection.R 835 1 &
+aprun -d 2 Rscript feature_selection.R 836 1 &
+aprun -d 2 Rscript feature_selection.R 837 1 &
+aprun -d 2 Rscript feature_selection.R 838 1 &
+aprun -d 2 Rscript feature_selection.R 839 1 &
+aprun -d 2 Rscript feature_selection.R 840 1 &
+wait
+8056420.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 841 1 &
+aprun -d 2 Rscript feature_selection.R 842 1 &
+aprun -d 2 Rscript feature_selection.R 843 1 &
+aprun -d 2 Rscript feature_selection.R 844 1 &
+aprun -d 2 Rscript feature_selection.R 845 1 &
+aprun -d 2 Rscript feature_selection.R 846 1 &
+aprun -d 2 Rscript feature_selection.R 847 1 &
+aprun -d 2 Rscript feature_selection.R 848 1 &
+aprun -d 2 Rscript feature_selection.R 849 1 &
+aprun -d 2 Rscript feature_selection.R 850 1 &
+aprun -d 2 Rscript feature_selection.R 851 1 &
+aprun -d 2 Rscript feature_selection.R 852 1 &
+aprun -d 2 Rscript feature_selection.R 853 1 &
+aprun -d 2 Rscript feature_selection.R 854 1 &
+aprun -d 2 Rscript feature_selection.R 855 1 &
+aprun -d 2 Rscript feature_selection.R 856 1 &
+aprun -d 2 Rscript feature_selection.R 857 1 &
+aprun -d 2 Rscript feature_selection.R 858 1 &
+aprun -d 2 Rscript feature_selection.R 859 1 &
+aprun -d 2 Rscript feature_selection.R 860 1 &
+wait
+8056421.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 861 1 &
+aprun -d 2 Rscript feature_selection.R 862 1 &
+aprun -d 2 Rscript feature_selection.R 863 1 &
+aprun -d 2 Rscript feature_selection.R 864 1 &
+aprun -d 2 Rscript feature_selection.R 865 1 &
+aprun -d 2 Rscript feature_selection.R 866 1 &
+aprun -d 2 Rscript feature_selection.R 867 1 &
+aprun -d 2 Rscript feature_selection.R 868 1 &
+aprun -d 2 Rscript feature_selection.R 869 1 &
+aprun -d 2 Rscript feature_selection.R 870 1 &
+aprun -d 2 Rscript feature_selection.R 871 1 &
+aprun -d 2 Rscript feature_selection.R 872 1 &
+aprun -d 2 Rscript feature_selection.R 873 1 &
+aprun -d 2 Rscript feature_selection.R 874 1 &
+aprun -d 2 Rscript feature_selection.R 875 1 &
+aprun -d 2 Rscript feature_selection.R 876 1 &
+aprun -d 2 Rscript feature_selection.R 877 1 &
+aprun -d 2 Rscript feature_selection.R 878 1 &
+aprun -d 2 Rscript feature_selection.R 879 1 &
+aprun -d 2 Rscript feature_selection.R 880 1 &
+wait
+8056422.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 881 1 &
+aprun -d 2 Rscript feature_selection.R 882 1 &
+aprun -d 2 Rscript feature_selection.R 883 1 &
+aprun -d 2 Rscript feature_selection.R 884 1 &
+aprun -d 2 Rscript feature_selection.R 885 1 &
+aprun -d 2 Rscript feature_selection.R 886 1 &
+aprun -d 2 Rscript feature_selection.R 887 1 &
+aprun -d 2 Rscript feature_selection.R 888 1 &
+aprun -d 2 Rscript feature_selection.R 889 1 &
+aprun -d 2 Rscript feature_selection.R 890 1 &
+aprun -d 2 Rscript feature_selection.R 891 1 &
+aprun -d 2 Rscript feature_selection.R 892 1 &
+aprun -d 2 Rscript feature_selection.R 893 1 &
+aprun -d 2 Rscript feature_selection.R 894 1 &
+aprun -d 2 Rscript feature_selection.R 895 1 &
+aprun -d 2 Rscript feature_selection.R 896 1 &
+aprun -d 2 Rscript feature_selection.R 897 1 &
+aprun -d 2 Rscript feature_selection.R 898 1 &
+aprun -d 2 Rscript feature_selection.R 899 1 &
+aprun -d 2 Rscript feature_selection.R 900 1 &
+wait
+8056423.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 901 1 &
+aprun -d 2 Rscript feature_selection.R 902 1 &
+aprun -d 2 Rscript feature_selection.R 903 1 &
+aprun -d 2 Rscript feature_selection.R 904 1 &
+aprun -d 2 Rscript feature_selection.R 905 1 &
+aprun -d 2 Rscript feature_selection.R 906 1 &
+aprun -d 2 Rscript feature_selection.R 907 1 &
+aprun -d 2 Rscript feature_selection.R 908 1 &
+aprun -d 2 Rscript feature_selection.R 909 1 &
+aprun -d 2 Rscript feature_selection.R 910 1 &
+aprun -d 2 Rscript feature_selection.R 911 1 &
+aprun -d 2 Rscript feature_selection.R 912 1 &
+aprun -d 2 Rscript feature_selection.R 913 1 &
+aprun -d 2 Rscript feature_selection.R 914 1 &
+aprun -d 2 Rscript feature_selection.R 915 1 &
+aprun -d 2 Rscript feature_selection.R 916 1 &
+aprun -d 2 Rscript feature_selection.R 917 1 &
+aprun -d 2 Rscript feature_selection.R 918 1 &
+aprun -d 2 Rscript feature_selection.R 919 1 &
+aprun -d 2 Rscript feature_selection.R 920 1 &
+wait
+8056424.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 921 1 &
+aprun -d 2 Rscript feature_selection.R 922 1 &
+aprun -d 2 Rscript feature_selection.R 923 1 &
+aprun -d 2 Rscript feature_selection.R 924 1 &
+aprun -d 2 Rscript feature_selection.R 925 1 &
+aprun -d 2 Rscript feature_selection.R 926 1 &
+aprun -d 2 Rscript feature_selection.R 927 1 &
+aprun -d 2 Rscript feature_selection.R 928 1 &
+aprun -d 2 Rscript feature_selection.R 929 1 &
+aprun -d 2 Rscript feature_selection.R 930 1 &
+aprun -d 2 Rscript feature_selection.R 931 1 &
+aprun -d 2 Rscript feature_selection.R 932 1 &
+aprun -d 2 Rscript feature_selection.R 933 1 &
+aprun -d 2 Rscript feature_selection.R 934 1 &
+aprun -d 2 Rscript feature_selection.R 935 1 &
+aprun -d 2 Rscript feature_selection.R 936 1 &
+aprun -d 2 Rscript feature_selection.R 937 1 &
+aprun -d 2 Rscript feature_selection.R 938 1 &
+aprun -d 2 Rscript feature_selection.R 939 1 &
+aprun -d 2 Rscript feature_selection.R 940 1 &
+wait
+8056425.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 941 1 &
+aprun -d 2 Rscript feature_selection.R 942 1 &
+aprun -d 2 Rscript feature_selection.R 943 1 &
+aprun -d 2 Rscript feature_selection.R 944 1 &
+aprun -d 2 Rscript feature_selection.R 945 1 &
+aprun -d 2 Rscript feature_selection.R 946 1 &
+aprun -d 2 Rscript feature_selection.R 947 1 &
+aprun -d 2 Rscript feature_selection.R 948 1 &
+aprun -d 2 Rscript feature_selection.R 949 1 &
+aprun -d 2 Rscript feature_selection.R 950 1 &
+aprun -d 2 Rscript feature_selection.R 951 1 &
+aprun -d 2 Rscript feature_selection.R 952 1 &
+aprun -d 2 Rscript feature_selection.R 953 1 &
+aprun -d 2 Rscript feature_selection.R 954 1 &
+aprun -d 2 Rscript feature_selection.R 955 1 &
+aprun -d 2 Rscript feature_selection.R 956 1 &
+aprun -d 2 Rscript feature_selection.R 957 1 &
+aprun -d 2 Rscript feature_selection.R 958 1 &
+aprun -d 2 Rscript feature_selection.R 959 1 &
+aprun -d 2 Rscript feature_selection.R 960 1 &
+wait
+8056426.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 961 1 &
+aprun -d 2 Rscript feature_selection.R 962 1 &
+aprun -d 2 Rscript feature_selection.R 963 1 &
+aprun -d 2 Rscript feature_selection.R 964 1 &
+aprun -d 2 Rscript feature_selection.R 965 1 &
+aprun -d 2 Rscript feature_selection.R 966 1 &
+aprun -d 2 Rscript feature_selection.R 967 1 &
+aprun -d 2 Rscript feature_selection.R 968 1 &
+aprun -d 2 Rscript feature_selection.R 969 1 &
+aprun -d 2 Rscript feature_selection.R 970 1 &
+aprun -d 2 Rscript feature_selection.R 971 1 &
+aprun -d 2 Rscript feature_selection.R 972 1 &
+aprun -d 2 Rscript feature_selection.R 973 1 &
+aprun -d 2 Rscript feature_selection.R 974 1 &
+aprun -d 2 Rscript feature_selection.R 975 1 &
+aprun -d 2 Rscript feature_selection.R 976 1 &
+aprun -d 2 Rscript feature_selection.R 977 1 &
+aprun -d 2 Rscript feature_selection.R 978 1 &
+aprun -d 2 Rscript feature_selection.R 979 1 &
+aprun -d 2 Rscript feature_selection.R 980 1 &
+wait
+8056427.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 981 1 &
+aprun -d 2 Rscript feature_selection.R 982 1 &
+aprun -d 2 Rscript feature_selection.R 983 1 &
+aprun -d 2 Rscript feature_selection.R 984 1 &
+aprun -d 2 Rscript feature_selection.R 985 1 &
+aprun -d 2 Rscript feature_selection.R 986 1 &
+aprun -d 2 Rscript feature_selection.R 987 1 &
+aprun -d 2 Rscript feature_selection.R 988 1 &
+aprun -d 2 Rscript feature_selection.R 989 1 &
+aprun -d 2 Rscript feature_selection.R 990 1 &
+aprun -d 2 Rscript feature_selection.R 991 1 &
+aprun -d 2 Rscript feature_selection.R 992 1 &
+aprun -d 2 Rscript feature_selection.R 993 1 &
+aprun -d 2 Rscript feature_selection.R 994 1 &
+aprun -d 2 Rscript feature_selection.R 995 1 &
+aprun -d 2 Rscript feature_selection.R 996 1 &
+aprun -d 2 Rscript feature_selection.R 997 1 &
+aprun -d 2 Rscript feature_selection.R 998 1 &
+aprun -d 2 Rscript feature_selection.R 999 1 &
+aprun -d 2 Rscript feature_selection.R 1000 1 &
+wait
+8056428.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 1001 1 &
+aprun -d 2 Rscript feature_selection.R 1002 1 &
+aprun -d 2 Rscript feature_selection.R 1003 1 &
+aprun -d 2 Rscript feature_selection.R 1004 1 &
+aprun -d 2 Rscript feature_selection.R 1005 1 &
+aprun -d 2 Rscript feature_selection.R 1006 1 &
+aprun -d 2 Rscript feature_selection.R 1007 1 &
+aprun -d 2 Rscript feature_selection.R 1008 1 &
+aprun -d 2 Rscript feature_selection.R 1009 1 &
+aprun -d 2 Rscript feature_selection.R 1010 1 &
+aprun -d 2 Rscript feature_selection.R 1011 1 &
+aprun -d 2 Rscript feature_selection.R 1012 1 &
+aprun -d 2 Rscript feature_selection.R 1013 1 &
+aprun -d 2 Rscript feature_selection.R 1014 1 &
+aprun -d 2 Rscript feature_selection.R 1015 1 &
+aprun -d 2 Rscript feature_selection.R 1016 1 &
+aprun -d 2 Rscript feature_selection.R 1017 1 &
+aprun -d 2 Rscript feature_selection.R 1018 1 &
+aprun -d 2 Rscript feature_selection.R 1019 1 &
+aprun -d 2 Rscript feature_selection.R 1020 1 &
+wait
+8056429.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 1021 1 &
+aprun -d 2 Rscript feature_selection.R 1022 1 &
+aprun -d 2 Rscript feature_selection.R 1023 1 &
+aprun -d 2 Rscript feature_selection.R 1024 1 &
+aprun -d 2 Rscript feature_selection.R 1025 1 &
+aprun -d 2 Rscript feature_selection.R 1026 1 &
+aprun -d 2 Rscript feature_selection.R 1027 1 &
+aprun -d 2 Rscript feature_selection.R 1028 1 &
+aprun -d 2 Rscript feature_selection.R 1029 1 &
+aprun -d 2 Rscript feature_selection.R 1030 1 &
+aprun -d 2 Rscript feature_selection.R 1031 1 &
+aprun -d 2 Rscript feature_selection.R 1032 1 &
+aprun -d 2 Rscript feature_selection.R 1033 1 &
+aprun -d 2 Rscript feature_selection.R 1034 1 &
+aprun -d 2 Rscript feature_selection.R 1035 1 &
+aprun -d 2 Rscript feature_selection.R 1036 1 &
+aprun -d 2 Rscript feature_selection.R 1037 1 &
+aprun -d 2 Rscript feature_selection.R 1038 1 &
+aprun -d 2 Rscript feature_selection.R 1039 1 &
+aprun -d 2 Rscript feature_selection.R 1040 1 &
+wait
+8056430.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 1041 1 &
+aprun -d 2 Rscript feature_selection.R 1042 1 &
+aprun -d 2 Rscript feature_selection.R 1043 1 &
+aprun -d 2 Rscript feature_selection.R 1044 1 &
+aprun -d 2 Rscript feature_selection.R 1045 1 &
+aprun -d 2 Rscript feature_selection.R 1046 1 &
+aprun -d 2 Rscript feature_selection.R 1047 1 &
+aprun -d 2 Rscript feature_selection.R 1048 1 &
+aprun -d 2 Rscript feature_selection.R 1049 1 &
+aprun -d 2 Rscript feature_selection.R 1050 1 &
+aprun -d 2 Rscript feature_selection.R 1051 1 &
+aprun -d 2 Rscript feature_selection.R 1052 1 &
+aprun -d 2 Rscript feature_selection.R 1053 1 &
+aprun -d 2 Rscript feature_selection.R 1054 1 &
+aprun -d 2 Rscript feature_selection.R 1055 1 &
+aprun -d 2 Rscript feature_selection.R 1056 1 &
+aprun -d 2 Rscript feature_selection.R 1057 1 &
+aprun -d 2 Rscript feature_selection.R 1058 1 &
+aprun -d 2 Rscript feature_selection.R 1059 1 &
+aprun -d 2 Rscript feature_selection.R 1060 1 &
+wait
+8056431.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 1061 1 &
+aprun -d 2 Rscript feature_selection.R 1062 1 &
+aprun -d 2 Rscript feature_selection.R 1063 1 &
+aprun -d 2 Rscript feature_selection.R 1064 1 &
+aprun -d 2 Rscript feature_selection.R 1065 1 &
+aprun -d 2 Rscript feature_selection.R 1066 1 &
+aprun -d 2 Rscript feature_selection.R 1067 1 &
+aprun -d 2 Rscript feature_selection.R 1068 1 &
+aprun -d 2 Rscript feature_selection.R 1069 1 &
+aprun -d 2 Rscript feature_selection.R 1070 1 &
+aprun -d 2 Rscript feature_selection.R 1071 1 &
+aprun -d 2 Rscript feature_selection.R 1072 1 &
+aprun -d 2 Rscript feature_selection.R 1073 1 &
+aprun -d 2 Rscript feature_selection.R 1074 1 &
+aprun -d 2 Rscript feature_selection.R 1075 1 &
+aprun -d 2 Rscript feature_selection.R 1076 1 &
+aprun -d 2 Rscript feature_selection.R 1077 1 &
+aprun -d 2 Rscript feature_selection.R 1078 1 &
+aprun -d 2 Rscript feature_selection.R 1079 1 &
+aprun -d 2 Rscript feature_selection.R 1080 1 &
+wait
+8056432.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 1081 1 &
+aprun -d 2 Rscript feature_selection.R 1082 1 &
+aprun -d 2 Rscript feature_selection.R 1083 1 &
+aprun -d 2 Rscript feature_selection.R 1084 1 &
+aprun -d 2 Rscript feature_selection.R 1085 1 &
+aprun -d 2 Rscript feature_selection.R 1086 1 &
+aprun -d 2 Rscript feature_selection.R 1087 1 &
+aprun -d 2 Rscript feature_selection.R 1088 1 &
+aprun -d 2 Rscript feature_selection.R 1089 1 &
+aprun -d 2 Rscript feature_selection.R 1090 1 &
+aprun -d 2 Rscript feature_selection.R 1091 1 &
+aprun -d 2 Rscript feature_selection.R 1092 1 &
+aprun -d 2 Rscript feature_selection.R 1093 1 &
+aprun -d 2 Rscript feature_selection.R 1094 1 &
+aprun -d 2 Rscript feature_selection.R 1095 1 &
+aprun -d 2 Rscript feature_selection.R 1096 1 &
+aprun -d 2 Rscript feature_selection.R 1097 1 &
+aprun -d 2 Rscript feature_selection.R 1098 1 &
+aprun -d 2 Rscript feature_selection.R 1099 1 &
+aprun -d 2 Rscript feature_selection.R 1100 1 &
+wait
+8056433.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 1101 1 &
+aprun -d 2 Rscript feature_selection.R 1102 1 &
+aprun -d 2 Rscript feature_selection.R 1103 1 &
+aprun -d 2 Rscript feature_selection.R 1104 1 &
+aprun -d 2 Rscript feature_selection.R 1105 1 &
+aprun -d 2 Rscript feature_selection.R 1106 1 &
+aprun -d 2 Rscript feature_selection.R 1107 1 &
+aprun -d 2 Rscript feature_selection.R 1108 1 &
+aprun -d 2 Rscript feature_selection.R 1109 1 &
+aprun -d 2 Rscript feature_selection.R 1110 1 &
+aprun -d 2 Rscript feature_selection.R 1111 1 &
+aprun -d 2 Rscript feature_selection.R 1112 1 &
+aprun -d 2 Rscript feature_selection.R 1113 1 &
+aprun -d 2 Rscript feature_selection.R 1114 1 &
+aprun -d 2 Rscript feature_selection.R 1115 1 &
+aprun -d 2 Rscript feature_selection.R 1116 1 &
+aprun -d 2 Rscript feature_selection.R 1117 1 &
+aprun -d 2 Rscript feature_selection.R 1118 1 &
+aprun -d 2 Rscript feature_selection.R 1119 1 &
+aprun -d 2 Rscript feature_selection.R 1120 1 &
+wait
+8056434.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 1121 1 &
+aprun -d 2 Rscript feature_selection.R 1122 1 &
+aprun -d 2 Rscript feature_selection.R 1123 1 &
+aprun -d 2 Rscript feature_selection.R 1124 1 &
+aprun -d 2 Rscript feature_selection.R 1125 1 &
+aprun -d 2 Rscript feature_selection.R 1126 1 &
+aprun -d 2 Rscript feature_selection.R 1127 1 &
+aprun -d 2 Rscript feature_selection.R 1128 1 &
+aprun -d 2 Rscript feature_selection.R 1129 1 &
+aprun -d 2 Rscript feature_selection.R 1130 1 &
+aprun -d 2 Rscript feature_selection.R 1131 1 &
+aprun -d 2 Rscript feature_selection.R 1132 1 &
+aprun -d 2 Rscript feature_selection.R 1133 1 &
+aprun -d 2 Rscript feature_selection.R 1134 1 &
+aprun -d 2 Rscript feature_selection.R 1135 1 &
+aprun -d 2 Rscript feature_selection.R 1136 1 &
+aprun -d 2 Rscript feature_selection.R 1137 1 &
+aprun -d 2 Rscript feature_selection.R 1138 1 &
+aprun -d 2 Rscript feature_selection.R 1139 1 &
+aprun -d 2 Rscript feature_selection.R 1140 1 &
+wait
+8056435.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 1141 1 &
+aprun -d 2 Rscript feature_selection.R 1142 1 &
+aprun -d 2 Rscript feature_selection.R 1143 1 &
+aprun -d 2 Rscript feature_selection.R 1144 1 &
+aprun -d 2 Rscript feature_selection.R 1145 1 &
+aprun -d 2 Rscript feature_selection.R 1146 1 &
+aprun -d 2 Rscript feature_selection.R 1147 1 &
+aprun -d 2 Rscript feature_selection.R 1148 1 &
+aprun -d 2 Rscript feature_selection.R 1149 1 &
+aprun -d 2 Rscript feature_selection.R 1150 1 &
+aprun -d 2 Rscript feature_selection.R 1151 1 &
+aprun -d 2 Rscript feature_selection.R 1152 1 &
+aprun -d 2 Rscript feature_selection.R 1153 1 &
+aprun -d 2 Rscript feature_selection.R 1154 1 &
+aprun -d 2 Rscript feature_selection.R 1155 1 &
+aprun -d 2 Rscript feature_selection.R 1156 1 &
+aprun -d 2 Rscript feature_selection.R 1157 1 &
+aprun -d 2 Rscript feature_selection.R 1158 1 &
+aprun -d 2 Rscript feature_selection.R 1159 1 &
+aprun -d 2 Rscript feature_selection.R 1160 1 &
+wait
+8056436.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 1161 1 &
+aprun -d 2 Rscript feature_selection.R 1162 1 &
+aprun -d 2 Rscript feature_selection.R 1163 1 &
+aprun -d 2 Rscript feature_selection.R 1164 1 &
+aprun -d 2 Rscript feature_selection.R 1165 1 &
+aprun -d 2 Rscript feature_selection.R 1166 1 &
+aprun -d 2 Rscript feature_selection.R 1167 1 &
+aprun -d 2 Rscript feature_selection.R 1168 1 &
+aprun -d 2 Rscript feature_selection.R 1169 1 &
+aprun -d 2 Rscript feature_selection.R 1170 1 &
+aprun -d 2 Rscript feature_selection.R 1171 1 &
+aprun -d 2 Rscript feature_selection.R 1172 1 &
+aprun -d 2 Rscript feature_selection.R 1173 1 &
+aprun -d 2 Rscript feature_selection.R 1174 1 &
+aprun -d 2 Rscript feature_selection.R 1175 1 &
+aprun -d 2 Rscript feature_selection.R 1176 1 &
+aprun -d 2 Rscript feature_selection.R 1177 1 &
+aprun -d 2 Rscript feature_selection.R 1178 1 &
+aprun -d 2 Rscript feature_selection.R 1179 1 &
+aprun -d 2 Rscript feature_selection.R 1180 1 &
+wait
+8056437.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 1181 1 &
+aprun -d 2 Rscript feature_selection.R 1182 1 &
+aprun -d 2 Rscript feature_selection.R 1183 1 &
+aprun -d 2 Rscript feature_selection.R 1184 1 &
+aprun -d 2 Rscript feature_selection.R 1185 1 &
+aprun -d 2 Rscript feature_selection.R 1186 1 &
+aprun -d 2 Rscript feature_selection.R 1187 1 &
+aprun -d 2 Rscript feature_selection.R 1188 1 &
+aprun -d 2 Rscript feature_selection.R 1189 1 &
+aprun -d 2 Rscript feature_selection.R 1190 1 &
+aprun -d 2 Rscript feature_selection.R 1191 1 &
+aprun -d 2 Rscript feature_selection.R 1192 1 &
+aprun -d 2 Rscript feature_selection.R 1193 1 &
+aprun -d 2 Rscript feature_selection.R 1194 1 &
+aprun -d 2 Rscript feature_selection.R 1195 1 &
+aprun -d 2 Rscript feature_selection.R 1196 1 &
+aprun -d 2 Rscript feature_selection.R 1197 1 &
+aprun -d 2 Rscript feature_selection.R 1198 1 &
+aprun -d 2 Rscript feature_selection.R 1199 1 &
+aprun -d 2 Rscript feature_selection.R 1200 1 &
+wait
+8056438.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 1201 1 &
+aprun -d 2 Rscript feature_selection.R 1202 1 &
+aprun -d 2 Rscript feature_selection.R 1203 1 &
+aprun -d 2 Rscript feature_selection.R 1204 1 &
+aprun -d 2 Rscript feature_selection.R 1205 1 &
+aprun -d 2 Rscript feature_selection.R 1206 1 &
+aprun -d 2 Rscript feature_selection.R 1207 1 &
+aprun -d 2 Rscript feature_selection.R 1208 1 &
+aprun -d 2 Rscript feature_selection.R 1209 1 &
+aprun -d 2 Rscript feature_selection.R 1210 1 &
+aprun -d 2 Rscript feature_selection.R 1211 1 &
+aprun -d 2 Rscript feature_selection.R 1212 1 &
+aprun -d 2 Rscript feature_selection.R 1213 1 &
+aprun -d 2 Rscript feature_selection.R 1214 1 &
+aprun -d 2 Rscript feature_selection.R 1215 1 &
+aprun -d 2 Rscript feature_selection.R 1216 1 &
+aprun -d 2 Rscript feature_selection.R 1217 1 &
+aprun -d 2 Rscript feature_selection.R 1218 1 &
+aprun -d 2 Rscript feature_selection.R 1219 1 &
+aprun -d 2 Rscript feature_selection.R 1220 1 &
+wait
+8056439.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 1221 1 &
+aprun -d 2 Rscript feature_selection.R 1222 1 &
+aprun -d 2 Rscript feature_selection.R 1223 1 &
+aprun -d 2 Rscript feature_selection.R 1224 1 &
+aprun -d 2 Rscript feature_selection.R 1225 1 &
+aprun -d 2 Rscript feature_selection.R 1226 1 &
+aprun -d 2 Rscript feature_selection.R 1227 1 &
+aprun -d 2 Rscript feature_selection.R 1228 1 &
+aprun -d 2 Rscript feature_selection.R 1229 1 &
+aprun -d 2 Rscript feature_selection.R 1230 1 &
+aprun -d 2 Rscript feature_selection.R 1231 1 &
+aprun -d 2 Rscript feature_selection.R 1232 1 &
+aprun -d 2 Rscript feature_selection.R 1233 1 &
+aprun -d 2 Rscript feature_selection.R 1234 1 &
+aprun -d 2 Rscript feature_selection.R 1235 1 &
+aprun -d 2 Rscript feature_selection.R 1236 1 &
+aprun -d 2 Rscript feature_selection.R 1237 1 &
+aprun -d 2 Rscript feature_selection.R 1238 1 &
+aprun -d 2 Rscript feature_selection.R 1239 1 &
+aprun -d 2 Rscript feature_selection.R 1240 1 &
+wait
+8056440.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 1241 1 &
+aprun -d 2 Rscript feature_selection.R 1242 1 &
+aprun -d 2 Rscript feature_selection.R 1243 1 &
+aprun -d 2 Rscript feature_selection.R 1244 1 &
+aprun -d 2 Rscript feature_selection.R 1245 1 &
+aprun -d 2 Rscript feature_selection.R 1246 1 &
+aprun -d 2 Rscript feature_selection.R 1247 1 &
+aprun -d 2 Rscript feature_selection.R 1248 1 &
+aprun -d 2 Rscript feature_selection.R 1249 1 &
+aprun -d 2 Rscript feature_selection.R 1250 1 &
+aprun -d 2 Rscript feature_selection.R 1251 1 &
+aprun -d 2 Rscript feature_selection.R 1252 1 &
+aprun -d 2 Rscript feature_selection.R 1253 1 &
+aprun -d 2 Rscript feature_selection.R 1254 1 &
+aprun -d 2 Rscript feature_selection.R 1255 1 &
+aprun -d 2 Rscript feature_selection.R 1256 1 &
+aprun -d 2 Rscript feature_selection.R 1257 1 &
+aprun -d 2 Rscript feature_selection.R 1258 1 &
+aprun -d 2 Rscript feature_selection.R 1259 1 &
+aprun -d 2 Rscript feature_selection.R 1260 1 &
+wait
+8056441.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 1261 1 &
+aprun -d 2 Rscript feature_selection.R 1262 1 &
+aprun -d 2 Rscript feature_selection.R 1263 1 &
+aprun -d 2 Rscript feature_selection.R 1264 1 &
+aprun -d 2 Rscript feature_selection.R 1265 1 &
+aprun -d 2 Rscript feature_selection.R 1266 1 &
+aprun -d 2 Rscript feature_selection.R 1267 1 &
+aprun -d 2 Rscript feature_selection.R 1268 1 &
+aprun -d 2 Rscript feature_selection.R 1269 1 &
+aprun -d 2 Rscript feature_selection.R 1270 1 &
+aprun -d 2 Rscript feature_selection.R 1271 1 &
+aprun -d 2 Rscript feature_selection.R 1272 1 &
+aprun -d 2 Rscript feature_selection.R 1273 1 &
+aprun -d 2 Rscript feature_selection.R 1274 1 &
+aprun -d 2 Rscript feature_selection.R 1275 1 &
+aprun -d 2 Rscript feature_selection.R 1276 1 &
+aprun -d 2 Rscript feature_selection.R 1277 1 &
+aprun -d 2 Rscript feature_selection.R 1278 1 &
+aprun -d 2 Rscript feature_selection.R 1279 1 &
+aprun -d 2 Rscript feature_selection.R 1280 1 &
+wait
+8056442.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 1281 1 &
+aprun -d 2 Rscript feature_selection.R 1282 1 &
+aprun -d 2 Rscript feature_selection.R 1283 1 &
+aprun -d 2 Rscript feature_selection.R 1284 1 &
+aprun -d 2 Rscript feature_selection.R 1285 1 &
+aprun -d 2 Rscript feature_selection.R 1286 1 &
+aprun -d 2 Rscript feature_selection.R 1287 1 &
+aprun -d 2 Rscript feature_selection.R 1288 1 &
+aprun -d 2 Rscript feature_selection.R 1289 1 &
+aprun -d 2 Rscript feature_selection.R 1290 1 &
+aprun -d 2 Rscript feature_selection.R 1291 1 &
+aprun -d 2 Rscript feature_selection.R 1292 1 &
+aprun -d 2 Rscript feature_selection.R 1293 1 &
+aprun -d 2 Rscript feature_selection.R 1294 1 &
+aprun -d 2 Rscript feature_selection.R 1295 1 &
+aprun -d 2 Rscript feature_selection.R 1296 1 &
+aprun -d 2 Rscript feature_selection.R 1297 1 &
+aprun -d 2 Rscript feature_selection.R 1298 1 &
+aprun -d 2 Rscript feature_selection.R 1299 1 &
+aprun -d 2 Rscript feature_selection.R 1300 1 &
+wait
+8056443.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 1301 1 &
+aprun -d 2 Rscript feature_selection.R 1302 1 &
+aprun -d 2 Rscript feature_selection.R 1303 1 &
+aprun -d 2 Rscript feature_selection.R 1304 1 &
+aprun -d 2 Rscript feature_selection.R 1305 1 &
+aprun -d 2 Rscript feature_selection.R 1306 1 &
+aprun -d 2 Rscript feature_selection.R 1307 1 &
+aprun -d 2 Rscript feature_selection.R 1308 1 &
+aprun -d 2 Rscript feature_selection.R 1309 1 &
+aprun -d 2 Rscript feature_selection.R 1310 1 &
+aprun -d 2 Rscript feature_selection.R 1311 1 &
+aprun -d 2 Rscript feature_selection.R 1312 1 &
+aprun -d 2 Rscript feature_selection.R 1313 1 &
+aprun -d 2 Rscript feature_selection.R 1314 1 &
+aprun -d 2 Rscript feature_selection.R 1315 1 &
+aprun -d 2 Rscript feature_selection.R 1316 1 &
+aprun -d 2 Rscript feature_selection.R 1317 1 &
+aprun -d 2 Rscript feature_selection.R 1318 1 &
+aprun -d 2 Rscript feature_selection.R 1319 1 &
+aprun -d 2 Rscript feature_selection.R 1320 1 &
+wait
+8056444.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 1321 1 &
+aprun -d 2 Rscript feature_selection.R 1322 1 &
+aprun -d 2 Rscript feature_selection.R 1323 1 &
+aprun -d 2 Rscript feature_selection.R 1324 1 &
+aprun -d 2 Rscript feature_selection.R 1325 1 &
+aprun -d 2 Rscript feature_selection.R 1326 1 &
+aprun -d 2 Rscript feature_selection.R 1327 1 &
+aprun -d 2 Rscript feature_selection.R 1328 1 &
+aprun -d 2 Rscript feature_selection.R 1329 1 &
+aprun -d 2 Rscript feature_selection.R 1330 1 &
+aprun -d 2 Rscript feature_selection.R 1331 1 &
+aprun -d 2 Rscript feature_selection.R 1332 1 &
+aprun -d 2 Rscript feature_selection.R 1333 1 &
+aprun -d 2 Rscript feature_selection.R 1334 1 &
+aprun -d 2 Rscript feature_selection.R 1335 1 &
+aprun -d 2 Rscript feature_selection.R 1336 1 &
+aprun -d 2 Rscript feature_selection.R 1337 1 &
+aprun -d 2 Rscript feature_selection.R 1338 1 &
+aprun -d 2 Rscript feature_selection.R 1339 1 &
+aprun -d 2 Rscript feature_selection.R 1340 1 &
+wait
+8056445.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 1341 1 &
+aprun -d 2 Rscript feature_selection.R 1342 1 &
+aprun -d 2 Rscript feature_selection.R 1343 1 &
+aprun -d 2 Rscript feature_selection.R 1344 1 &
+aprun -d 2 Rscript feature_selection.R 1345 1 &
+aprun -d 2 Rscript feature_selection.R 1346 1 &
+aprun -d 2 Rscript feature_selection.R 1347 1 &
+aprun -d 2 Rscript feature_selection.R 1348 1 &
+aprun -d 2 Rscript feature_selection.R 1349 1 &
+aprun -d 2 Rscript feature_selection.R 1350 1 &
+aprun -d 2 Rscript feature_selection.R 1351 1 &
+aprun -d 2 Rscript feature_selection.R 1352 1 &
+aprun -d 2 Rscript feature_selection.R 1353 1 &
+aprun -d 2 Rscript feature_selection.R 1354 1 &
+aprun -d 2 Rscript feature_selection.R 1355 1 &
+aprun -d 2 Rscript feature_selection.R 1356 1 &
+aprun -d 2 Rscript feature_selection.R 1357 1 &
+aprun -d 2 Rscript feature_selection.R 1358 1 &
+aprun -d 2 Rscript feature_selection.R 1359 1 &
+aprun -d 2 Rscript feature_selection.R 1360 1 &
+wait
+8056446.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 1361 1 &
+aprun -d 2 Rscript feature_selection.R 1362 1 &
+aprun -d 2 Rscript feature_selection.R 1363 1 &
+aprun -d 2 Rscript feature_selection.R 1364 1 &
+aprun -d 2 Rscript feature_selection.R 1365 1 &
+aprun -d 2 Rscript feature_selection.R 1366 1 &
+aprun -d 2 Rscript feature_selection.R 1367 1 &
+aprun -d 2 Rscript feature_selection.R 1368 1 &
+aprun -d 2 Rscript feature_selection.R 1369 1 &
+aprun -d 2 Rscript feature_selection.R 1370 1 &
+aprun -d 2 Rscript feature_selection.R 1371 1 &
+aprun -d 2 Rscript feature_selection.R 1372 1 &
+aprun -d 2 Rscript feature_selection.R 1373 1 &
+aprun -d 2 Rscript feature_selection.R 1374 1 &
+aprun -d 2 Rscript feature_selection.R 1375 1 &
+aprun -d 2 Rscript feature_selection.R 1376 1 &
+aprun -d 2 Rscript feature_selection.R 1377 1 &
+aprun -d 2 Rscript feature_selection.R 1378 1 &
+aprun -d 2 Rscript feature_selection.R 1379 1 &
+aprun -d 2 Rscript feature_selection.R 1380 1 &
+wait
+8056447.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 1381 1 &
+aprun -d 2 Rscript feature_selection.R 1382 1 &
+aprun -d 2 Rscript feature_selection.R 1383 1 &
+aprun -d 2 Rscript feature_selection.R 1384 1 &
+aprun -d 2 Rscript feature_selection.R 1385 1 &
+aprun -d 2 Rscript feature_selection.R 1386 1 &
+aprun -d 2 Rscript feature_selection.R 1387 1 &
+aprun -d 2 Rscript feature_selection.R 1388 1 &
+aprun -d 2 Rscript feature_selection.R 1389 1 &
+aprun -d 2 Rscript feature_selection.R 1390 1 &
+aprun -d 2 Rscript feature_selection.R 1391 1 &
+aprun -d 2 Rscript feature_selection.R 1392 1 &
+aprun -d 2 Rscript feature_selection.R 1393 1 &
+aprun -d 2 Rscript feature_selection.R 1394 1 &
+aprun -d 2 Rscript feature_selection.R 1395 1 &
+aprun -d 2 Rscript feature_selection.R 1396 1 &
+aprun -d 2 Rscript feature_selection.R 1397 1 &
+aprun -d 2 Rscript feature_selection.R 1398 1 &
+aprun -d 2 Rscript feature_selection.R 1399 1 &
+aprun -d 2 Rscript feature_selection.R 1400 1 &
+wait
+8056448.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 1401 1 &
+aprun -d 2 Rscript feature_selection.R 1402 1 &
+aprun -d 2 Rscript feature_selection.R 1403 1 &
+aprun -d 2 Rscript feature_selection.R 1404 1 &
+aprun -d 2 Rscript feature_selection.R 1405 1 &
+aprun -d 2 Rscript feature_selection.R 1406 1 &
+aprun -d 2 Rscript feature_selection.R 1407 1 &
+aprun -d 2 Rscript feature_selection.R 1408 1 &
+aprun -d 2 Rscript feature_selection.R 1409 1 &
+aprun -d 2 Rscript feature_selection.R 1410 1 &
+aprun -d 2 Rscript feature_selection.R 1411 1 &
+aprun -d 2 Rscript feature_selection.R 1412 1 &
+aprun -d 2 Rscript feature_selection.R 1413 1 &
+aprun -d 2 Rscript feature_selection.R 1414 1 &
+aprun -d 2 Rscript feature_selection.R 1415 1 &
+aprun -d 2 Rscript feature_selection.R 1416 1 &
+aprun -d 2 Rscript feature_selection.R 1417 1 &
+aprun -d 2 Rscript feature_selection.R 1418 1 &
+aprun -d 2 Rscript feature_selection.R 1419 1 &
+aprun -d 2 Rscript feature_selection.R 1420 1 &
+wait
+8056449.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 1421 1 &
+aprun -d 2 Rscript feature_selection.R 1422 1 &
+aprun -d 2 Rscript feature_selection.R 1423 1 &
+aprun -d 2 Rscript feature_selection.R 1424 1 &
+aprun -d 2 Rscript feature_selection.R 1425 1 &
+aprun -d 2 Rscript feature_selection.R 1426 1 &
+aprun -d 2 Rscript feature_selection.R 1427 1 &
+aprun -d 2 Rscript feature_selection.R 1428 1 &
+aprun -d 2 Rscript feature_selection.R 1429 1 &
+aprun -d 2 Rscript feature_selection.R 1430 1 &
+aprun -d 2 Rscript feature_selection.R 1431 1 &
+aprun -d 2 Rscript feature_selection.R 1432 1 &
+aprun -d 2 Rscript feature_selection.R 1433 1 &
+aprun -d 2 Rscript feature_selection.R 1434 1 &
+aprun -d 2 Rscript feature_selection.R 1435 1 &
+aprun -d 2 Rscript feature_selection.R 1436 1 &
+aprun -d 2 Rscript feature_selection.R 1437 1 &
+aprun -d 2 Rscript feature_selection.R 1438 1 &
+aprun -d 2 Rscript feature_selection.R 1439 1 &
+aprun -d 2 Rscript feature_selection.R 1440 1 &
+wait
+8056450.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 1441 1 &
+aprun -d 2 Rscript feature_selection.R 1442 1 &
+aprun -d 2 Rscript feature_selection.R 1443 1 &
+aprun -d 2 Rscript feature_selection.R 1444 1 &
+aprun -d 2 Rscript feature_selection.R 1445 1 &
+aprun -d 2 Rscript feature_selection.R 1446 1 &
+aprun -d 2 Rscript feature_selection.R 1447 1 &
+aprun -d 2 Rscript feature_selection.R 1448 1 &
+aprun -d 2 Rscript feature_selection.R 1449 1 &
+aprun -d 2 Rscript feature_selection.R 1450 1 &
+aprun -d 2 Rscript feature_selection.R 1451 1 &
+aprun -d 2 Rscript feature_selection.R 1452 1 &
+aprun -d 2 Rscript feature_selection.R 1453 1 &
+aprun -d 2 Rscript feature_selection.R 1454 1 &
+aprun -d 2 Rscript feature_selection.R 1455 1 &
+aprun -d 2 Rscript feature_selection.R 1456 1 &
+aprun -d 2 Rscript feature_selection.R 1457 1 &
+aprun -d 2 Rscript feature_selection.R 1458 1 &
+aprun -d 2 Rscript feature_selection.R 1459 1 &
+aprun -d 2 Rscript feature_selection.R 1460 1 &
+wait
+8056451.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 1461 1 &
+aprun -d 2 Rscript feature_selection.R 1462 1 &
+aprun -d 2 Rscript feature_selection.R 1463 1 &
+aprun -d 2 Rscript feature_selection.R 1464 1 &
+aprun -d 2 Rscript feature_selection.R 1465 1 &
+aprun -d 2 Rscript feature_selection.R 1466 1 &
+aprun -d 2 Rscript feature_selection.R 1467 1 &
+aprun -d 2 Rscript feature_selection.R 1468 1 &
+aprun -d 2 Rscript feature_selection.R 1469 1 &
+aprun -d 2 Rscript feature_selection.R 1470 1 &
+aprun -d 2 Rscript feature_selection.R 1471 1 &
+aprun -d 2 Rscript feature_selection.R 1472 1 &
+aprun -d 2 Rscript feature_selection.R 1473 1 &
+aprun -d 2 Rscript feature_selection.R 1474 1 &
+aprun -d 2 Rscript feature_selection.R 1475 1 &
+aprun -d 2 Rscript feature_selection.R 1476 1 &
+aprun -d 2 Rscript feature_selection.R 1477 1 &
+aprun -d 2 Rscript feature_selection.R 1478 1 &
+aprun -d 2 Rscript feature_selection.R 1479 1 &
+aprun -d 2 Rscript feature_selection.R 1480 1 &
+wait
+8056452.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 1481 1 &
+aprun -d 2 Rscript feature_selection.R 1482 1 &
+aprun -d 2 Rscript feature_selection.R 1483 1 &
+aprun -d 2 Rscript feature_selection.R 1484 1 &
+aprun -d 2 Rscript feature_selection.R 1485 1 &
+aprun -d 2 Rscript feature_selection.R 1486 1 &
+aprun -d 2 Rscript feature_selection.R 1487 1 &
+aprun -d 2 Rscript feature_selection.R 1488 1 &
+aprun -d 2 Rscript feature_selection.R 1489 1 &
+aprun -d 2 Rscript feature_selection.R 1490 1 &
+aprun -d 2 Rscript feature_selection.R 1491 1 &
+aprun -d 2 Rscript feature_selection.R 1492 1 &
+aprun -d 2 Rscript feature_selection.R 1493 1 &
+aprun -d 2 Rscript feature_selection.R 1494 1 &
+aprun -d 2 Rscript feature_selection.R 1495 1 &
+aprun -d 2 Rscript feature_selection.R 1496 1 &
+aprun -d 2 Rscript feature_selection.R 1497 1 &
+aprun -d 2 Rscript feature_selection.R 1498 1 &
+aprun -d 2 Rscript feature_selection.R 1499 1 &
+aprun -d 2 Rscript feature_selection.R 1500 1 &
+wait
+8056453.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 1501 1 &
+aprun -d 2 Rscript feature_selection.R 1502 1 &
+aprun -d 2 Rscript feature_selection.R 1503 1 &
+aprun -d 2 Rscript feature_selection.R 1504 1 &
+aprun -d 2 Rscript feature_selection.R 1505 1 &
+aprun -d 2 Rscript feature_selection.R 1506 1 &
+aprun -d 2 Rscript feature_selection.R 1507 1 &
+aprun -d 2 Rscript feature_selection.R 1508 1 &
+aprun -d 2 Rscript feature_selection.R 1509 1 &
+aprun -d 2 Rscript feature_selection.R 1510 1 &
+aprun -d 2 Rscript feature_selection.R 1511 1 &
+aprun -d 2 Rscript feature_selection.R 1512 1 &
+aprun -d 2 Rscript feature_selection.R 1513 1 &
+aprun -d 2 Rscript feature_selection.R 1514 1 &
+aprun -d 2 Rscript feature_selection.R 1515 1 &
+aprun -d 2 Rscript feature_selection.R 1516 1 &
+aprun -d 2 Rscript feature_selection.R 1517 1 &
+aprun -d 2 Rscript feature_selection.R 1518 1 &
+aprun -d 2 Rscript feature_selection.R 1519 1 &
+aprun -d 2 Rscript feature_selection.R 1520 1 &
+wait
+8056454.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 1521 1 &
+aprun -d 2 Rscript feature_selection.R 1522 1 &
+aprun -d 2 Rscript feature_selection.R 1523 1 &
+aprun -d 2 Rscript feature_selection.R 1524 1 &
+aprun -d 2 Rscript feature_selection.R 1525 1 &
+aprun -d 2 Rscript feature_selection.R 1526 1 &
+aprun -d 2 Rscript feature_selection.R 1527 1 &
+aprun -d 2 Rscript feature_selection.R 1528 1 &
+aprun -d 2 Rscript feature_selection.R 1529 1 &
+aprun -d 2 Rscript feature_selection.R 1530 1 &
+aprun -d 2 Rscript feature_selection.R 1531 1 &
+aprun -d 2 Rscript feature_selection.R 1532 1 &
+aprun -d 2 Rscript feature_selection.R 1533 1 &
+aprun -d 2 Rscript feature_selection.R 1534 1 &
+aprun -d 2 Rscript feature_selection.R 1535 1 &
+aprun -d 2 Rscript feature_selection.R 1536 1 &
+aprun -d 2 Rscript feature_selection.R 1537 1 &
+aprun -d 2 Rscript feature_selection.R 1538 1 &
+aprun -d 2 Rscript feature_selection.R 1539 1 &
+aprun -d 2 Rscript feature_selection.R 1540 1 &
+wait
+8056455.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 1541 1 &
+aprun -d 2 Rscript feature_selection.R 1542 1 &
+aprun -d 2 Rscript feature_selection.R 1543 1 &
+aprun -d 2 Rscript feature_selection.R 1544 1 &
+aprun -d 2 Rscript feature_selection.R 1545 1 &
+aprun -d 2 Rscript feature_selection.R 1546 1 &
+aprun -d 2 Rscript feature_selection.R 1547 1 &
+aprun -d 2 Rscript feature_selection.R 1548 1 &
+aprun -d 2 Rscript feature_selection.R 1549 1 &
+aprun -d 2 Rscript feature_selection.R 1550 1 &
+aprun -d 2 Rscript feature_selection.R 1551 1 &
+aprun -d 2 Rscript feature_selection.R 1552 1 &
+aprun -d 2 Rscript feature_selection.R 1553 1 &
+aprun -d 2 Rscript feature_selection.R 1554 1 &
+aprun -d 2 Rscript feature_selection.R 1555 1 &
+aprun -d 2 Rscript feature_selection.R 1556 1 &
+aprun -d 2 Rscript feature_selection.R 1557 1 &
+aprun -d 2 Rscript feature_selection.R 1558 1 &
+aprun -d 2 Rscript feature_selection.R 1559 1 &
+aprun -d 2 Rscript feature_selection.R 1560 1 &
+wait
+8056456.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 1561 1 &
+aprun -d 2 Rscript feature_selection.R 1562 1 &
+aprun -d 2 Rscript feature_selection.R 1563 1 &
+aprun -d 2 Rscript feature_selection.R 1564 1 &
+aprun -d 2 Rscript feature_selection.R 1565 1 &
+aprun -d 2 Rscript feature_selection.R 1566 1 &
+aprun -d 2 Rscript feature_selection.R 1567 1 &
+aprun -d 2 Rscript feature_selection.R 1568 1 &
+aprun -d 2 Rscript feature_selection.R 1569 1 &
+aprun -d 2 Rscript feature_selection.R 1570 1 &
+aprun -d 2 Rscript feature_selection.R 1571 1 &
+aprun -d 2 Rscript feature_selection.R 1572 1 &
+aprun -d 2 Rscript feature_selection.R 1573 1 &
+aprun -d 2 Rscript feature_selection.R 1574 1 &
+aprun -d 2 Rscript feature_selection.R 1575 1 &
+aprun -d 2 Rscript feature_selection.R 1576 1 &
+aprun -d 2 Rscript feature_selection.R 1577 1 &
+aprun -d 2 Rscript feature_selection.R 1578 1 &
+aprun -d 2 Rscript feature_selection.R 1579 1 &
+aprun -d 2 Rscript feature_selection.R 1580 1 &
+wait
+8056457.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 1581 1 &
+aprun -d 2 Rscript feature_selection.R 1582 1 &
+aprun -d 2 Rscript feature_selection.R 1583 1 &
+aprun -d 2 Rscript feature_selection.R 1584 1 &
+aprun -d 2 Rscript feature_selection.R 1585 1 &
+aprun -d 2 Rscript feature_selection.R 1586 1 &
+aprun -d 2 Rscript feature_selection.R 1587 1 &
+aprun -d 2 Rscript feature_selection.R 1588 1 &
+aprun -d 2 Rscript feature_selection.R 1589 1 &
+aprun -d 2 Rscript feature_selection.R 1590 1 &
+aprun -d 2 Rscript feature_selection.R 1591 1 &
+aprun -d 2 Rscript feature_selection.R 1592 1 &
+aprun -d 2 Rscript feature_selection.R 1593 1 &
+aprun -d 2 Rscript feature_selection.R 1594 1 &
+aprun -d 2 Rscript feature_selection.R 1595 1 &
+aprun -d 2 Rscript feature_selection.R 1596 1 &
+aprun -d 2 Rscript feature_selection.R 1597 1 &
+aprun -d 2 Rscript feature_selection.R 1598 1 &
+aprun -d 2 Rscript feature_selection.R 1599 1 &
+aprun -d 2 Rscript feature_selection.R 1600 1 &
+wait
+8056458.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 1601 1 &
+aprun -d 2 Rscript feature_selection.R 1602 1 &
+aprun -d 2 Rscript feature_selection.R 1603 1 &
+aprun -d 2 Rscript feature_selection.R 1604 1 &
+aprun -d 2 Rscript feature_selection.R 1605 1 &
+aprun -d 2 Rscript feature_selection.R 1606 1 &
+aprun -d 2 Rscript feature_selection.R 1607 1 &
+aprun -d 2 Rscript feature_selection.R 1608 1 &
+aprun -d 2 Rscript feature_selection.R 1609 1 &
+aprun -d 2 Rscript feature_selection.R 1610 1 &
+aprun -d 2 Rscript feature_selection.R 1611 1 &
+aprun -d 2 Rscript feature_selection.R 1612 1 &
+aprun -d 2 Rscript feature_selection.R 1613 1 &
+aprun -d 2 Rscript feature_selection.R 1614 1 &
+aprun -d 2 Rscript feature_selection.R 1615 1 &
+aprun -d 2 Rscript feature_selection.R 1616 1 &
+aprun -d 2 Rscript feature_selection.R 1617 1 &
+aprun -d 2 Rscript feature_selection.R 1618 1 &
+aprun -d 2 Rscript feature_selection.R 1619 1 &
+aprun -d 2 Rscript feature_selection.R 1620 1 &
+wait
+8056459.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 1621 1 &
+aprun -d 2 Rscript feature_selection.R 1622 1 &
+aprun -d 2 Rscript feature_selection.R 1623 1 &
+aprun -d 2 Rscript feature_selection.R 1624 1 &
+aprun -d 2 Rscript feature_selection.R 1625 1 &
+aprun -d 2 Rscript feature_selection.R 1626 1 &
+aprun -d 2 Rscript feature_selection.R 1627 1 &
+aprun -d 2 Rscript feature_selection.R 1628 1 &
+aprun -d 2 Rscript feature_selection.R 1629 1 &
+aprun -d 2 Rscript feature_selection.R 1630 1 &
+aprun -d 2 Rscript feature_selection.R 1631 1 &
+aprun -d 2 Rscript feature_selection.R 1632 1 &
+aprun -d 2 Rscript feature_selection.R 1633 1 &
+aprun -d 2 Rscript feature_selection.R 1634 1 &
+aprun -d 2 Rscript feature_selection.R 1635 1 &
+aprun -d 2 Rscript feature_selection.R 1636 1 &
+aprun -d 2 Rscript feature_selection.R 1637 1 &
+aprun -d 2 Rscript feature_selection.R 1638 1 &
+aprun -d 2 Rscript feature_selection.R 1639 1 &
+aprun -d 2 Rscript feature_selection.R 1640 1 &
+wait
+8056460.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 1641 1 &
+aprun -d 2 Rscript feature_selection.R 1642 1 &
+aprun -d 2 Rscript feature_selection.R 1643 1 &
+aprun -d 2 Rscript feature_selection.R 1644 1 &
+aprun -d 2 Rscript feature_selection.R 1645 1 &
+aprun -d 2 Rscript feature_selection.R 1646 1 &
+aprun -d 2 Rscript feature_selection.R 1647 1 &
+aprun -d 2 Rscript feature_selection.R 1648 1 &
+aprun -d 2 Rscript feature_selection.R 1649 1 &
+aprun -d 2 Rscript feature_selection.R 1650 1 &
+aprun -d 2 Rscript feature_selection.R 1651 1 &
+aprun -d 2 Rscript feature_selection.R 1652 1 &
+aprun -d 2 Rscript feature_selection.R 1653 1 &
+aprun -d 2 Rscript feature_selection.R 1654 1 &
+aprun -d 2 Rscript feature_selection.R 1655 1 &
+aprun -d 2 Rscript feature_selection.R 1656 1 &
+aprun -d 2 Rscript feature_selection.R 1657 1 &
+aprun -d 2 Rscript feature_selection.R 1658 1 &
+aprun -d 2 Rscript feature_selection.R 1659 1 &
+aprun -d 2 Rscript feature_selection.R 1660 1 &
+wait
+8056461.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 1661 1 &
+aprun -d 2 Rscript feature_selection.R 1662 1 &
+aprun -d 2 Rscript feature_selection.R 1663 1 &
+aprun -d 2 Rscript feature_selection.R 1664 1 &
+aprun -d 2 Rscript feature_selection.R 1665 1 &
+aprun -d 2 Rscript feature_selection.R 1666 1 &
+aprun -d 2 Rscript feature_selection.R 1667 1 &
+aprun -d 2 Rscript feature_selection.R 1668 1 &
+aprun -d 2 Rscript feature_selection.R 1669 1 &
+aprun -d 2 Rscript feature_selection.R 1670 1 &
+aprun -d 2 Rscript feature_selection.R 1671 1 &
+aprun -d 2 Rscript feature_selection.R 1672 1 &
+aprun -d 2 Rscript feature_selection.R 1673 1 &
+aprun -d 2 Rscript feature_selection.R 1674 1 &
+aprun -d 2 Rscript feature_selection.R 1675 1 &
+aprun -d 2 Rscript feature_selection.R 1676 1 &
+aprun -d 2 Rscript feature_selection.R 1677 1 &
+aprun -d 2 Rscript feature_selection.R 1678 1 &
+aprun -d 2 Rscript feature_selection.R 1679 1 &
+aprun -d 2 Rscript feature_selection.R 1680 1 &
+wait
+8056462.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 1681 1 &
+aprun -d 2 Rscript feature_selection.R 1682 1 &
+aprun -d 2 Rscript feature_selection.R 1683 1 &
+aprun -d 2 Rscript feature_selection.R 1684 1 &
+aprun -d 2 Rscript feature_selection.R 1685 1 &
+aprun -d 2 Rscript feature_selection.R 1686 1 &
+aprun -d 2 Rscript feature_selection.R 1687 1 &
+aprun -d 2 Rscript feature_selection.R 1688 1 &
+aprun -d 2 Rscript feature_selection.R 1689 1 &
+aprun -d 2 Rscript feature_selection.R 1690 1 &
+aprun -d 2 Rscript feature_selection.R 1691 1 &
+aprun -d 2 Rscript feature_selection.R 1692 1 &
+aprun -d 2 Rscript feature_selection.R 1693 1 &
+aprun -d 2 Rscript feature_selection.R 1694 1 &
+aprun -d 2 Rscript feature_selection.R 1695 1 &
+aprun -d 2 Rscript feature_selection.R 1696 1 &
+aprun -d 2 Rscript feature_selection.R 1697 1 &
+aprun -d 2 Rscript feature_selection.R 1698 1 &
+aprun -d 2 Rscript feature_selection.R 1699 1 &
+aprun -d 2 Rscript feature_selection.R 1700 1 &
+wait
+8056463.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 1701 1 &
+aprun -d 2 Rscript feature_selection.R 1702 1 &
+aprun -d 2 Rscript feature_selection.R 1703 1 &
+aprun -d 2 Rscript feature_selection.R 1704 1 &
+aprun -d 2 Rscript feature_selection.R 1705 1 &
+aprun -d 2 Rscript feature_selection.R 1706 1 &
+aprun -d 2 Rscript feature_selection.R 1707 1 &
+aprun -d 2 Rscript feature_selection.R 1708 1 &
+aprun -d 2 Rscript feature_selection.R 1709 1 &
+aprun -d 2 Rscript feature_selection.R 1710 1 &
+aprun -d 2 Rscript feature_selection.R 1711 1 &
+aprun -d 2 Rscript feature_selection.R 1712 1 &
+aprun -d 2 Rscript feature_selection.R 1713 1 &
+aprun -d 2 Rscript feature_selection.R 1714 1 &
+aprun -d 2 Rscript feature_selection.R 1715 1 &
+aprun -d 2 Rscript feature_selection.R 1716 1 &
+aprun -d 2 Rscript feature_selection.R 1717 1 &
+aprun -d 2 Rscript feature_selection.R 1718 1 &
+aprun -d 2 Rscript feature_selection.R 1719 1 &
+aprun -d 2 Rscript feature_selection.R 1720 1 &
+wait
+8056464.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 1721 1 &
+aprun -d 2 Rscript feature_selection.R 1722 1 &
+aprun -d 2 Rscript feature_selection.R 1723 1 &
+aprun -d 2 Rscript feature_selection.R 1724 1 &
+aprun -d 2 Rscript feature_selection.R 1725 1 &
+aprun -d 2 Rscript feature_selection.R 1726 1 &
+aprun -d 2 Rscript feature_selection.R 1727 1 &
+aprun -d 2 Rscript feature_selection.R 1728 1 &
+aprun -d 2 Rscript feature_selection.R 1729 1 &
+aprun -d 2 Rscript feature_selection.R 1730 1 &
+aprun -d 2 Rscript feature_selection.R 1731 1 &
+aprun -d 2 Rscript feature_selection.R 1732 1 &
+aprun -d 2 Rscript feature_selection.R 1733 1 &
+aprun -d 2 Rscript feature_selection.R 1734 1 &
+aprun -d 2 Rscript feature_selection.R 1735 1 &
+aprun -d 2 Rscript feature_selection.R 1736 1 &
+aprun -d 2 Rscript feature_selection.R 1737 1 &
+aprun -d 2 Rscript feature_selection.R 1738 1 &
+aprun -d 2 Rscript feature_selection.R 1739 1 &
+aprun -d 2 Rscript feature_selection.R 1740 1 &
+wait
+8056465.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 1741 1 &
+aprun -d 2 Rscript feature_selection.R 1742 1 &
+aprun -d 2 Rscript feature_selection.R 1743 1 &
+aprun -d 2 Rscript feature_selection.R 1744 1 &
+aprun -d 2 Rscript feature_selection.R 1745 1 &
+aprun -d 2 Rscript feature_selection.R 1746 1 &
+aprun -d 2 Rscript feature_selection.R 1747 1 &
+aprun -d 2 Rscript feature_selection.R 1748 1 &
+aprun -d 2 Rscript feature_selection.R 1749 1 &
+aprun -d 2 Rscript feature_selection.R 1750 1 &
+aprun -d 2 Rscript feature_selection.R 1751 1 &
+aprun -d 2 Rscript feature_selection.R 1752 1 &
+aprun -d 2 Rscript feature_selection.R 1753 1 &
+aprun -d 2 Rscript feature_selection.R 1754 1 &
+aprun -d 2 Rscript feature_selection.R 1755 1 &
+aprun -d 2 Rscript feature_selection.R 1756 1 &
+aprun -d 2 Rscript feature_selection.R 1757 1 &
+aprun -d 2 Rscript feature_selection.R 1758 1 &
+aprun -d 2 Rscript feature_selection.R 1759 1 &
+aprun -d 2 Rscript feature_selection.R 1760 1 &
+wait
+8056466.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 1761 1 &
+aprun -d 2 Rscript feature_selection.R 1762 1 &
+aprun -d 2 Rscript feature_selection.R 1763 1 &
+aprun -d 2 Rscript feature_selection.R 1764 1 &
+aprun -d 2 Rscript feature_selection.R 1765 1 &
+aprun -d 2 Rscript feature_selection.R 1766 1 &
+aprun -d 2 Rscript feature_selection.R 1767 1 &
+aprun -d 2 Rscript feature_selection.R 1768 1 &
+aprun -d 2 Rscript feature_selection.R 1769 1 &
+aprun -d 2 Rscript feature_selection.R 1770 1 &
+aprun -d 2 Rscript feature_selection.R 1771 1 &
+aprun -d 2 Rscript feature_selection.R 1772 1 &
+aprun -d 2 Rscript feature_selection.R 1773 1 &
+aprun -d 2 Rscript feature_selection.R 1774 1 &
+aprun -d 2 Rscript feature_selection.R 1775 1 &
+aprun -d 2 Rscript feature_selection.R 1776 1 &
+aprun -d 2 Rscript feature_selection.R 1777 1 &
+aprun -d 2 Rscript feature_selection.R 1778 1 &
+aprun -d 2 Rscript feature_selection.R 1779 1 &
+aprun -d 2 Rscript feature_selection.R 1780 1 &
+wait
+8056467.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 1781 1 &
+aprun -d 2 Rscript feature_selection.R 1782 1 &
+aprun -d 2 Rscript feature_selection.R 1783 1 &
+aprun -d 2 Rscript feature_selection.R 1784 1 &
+aprun -d 2 Rscript feature_selection.R 1785 1 &
+aprun -d 2 Rscript feature_selection.R 1786 1 &
+aprun -d 2 Rscript feature_selection.R 1787 1 &
+aprun -d 2 Rscript feature_selection.R 1788 1 &
+aprun -d 2 Rscript feature_selection.R 1789 1 &
+aprun -d 2 Rscript feature_selection.R 1790 1 &
+aprun -d 2 Rscript feature_selection.R 1791 1 &
+aprun -d 2 Rscript feature_selection.R 1792 1 &
+aprun -d 2 Rscript feature_selection.R 1793 1 &
+aprun -d 2 Rscript feature_selection.R 1794 1 &
+aprun -d 2 Rscript feature_selection.R 1795 1 &
+aprun -d 2 Rscript feature_selection.R 1796 1 &
+aprun -d 2 Rscript feature_selection.R 1797 1 &
+aprun -d 2 Rscript feature_selection.R 1798 1 &
+aprun -d 2 Rscript feature_selection.R 1799 1 &
+aprun -d 2 Rscript feature_selection.R 1800 1 &
+wait
+8056468.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 1801 1 &
+aprun -d 2 Rscript feature_selection.R 1802 1 &
+aprun -d 2 Rscript feature_selection.R 1803 1 &
+aprun -d 2 Rscript feature_selection.R 1804 1 &
+aprun -d 2 Rscript feature_selection.R 1805 1 &
+aprun -d 2 Rscript feature_selection.R 1806 1 &
+aprun -d 2 Rscript feature_selection.R 1807 1 &
+aprun -d 2 Rscript feature_selection.R 1808 1 &
+aprun -d 2 Rscript feature_selection.R 1809 1 &
+aprun -d 2 Rscript feature_selection.R 1810 1 &
+aprun -d 2 Rscript feature_selection.R 1811 1 &
+aprun -d 2 Rscript feature_selection.R 1812 1 &
+aprun -d 2 Rscript feature_selection.R 1813 1 &
+aprun -d 2 Rscript feature_selection.R 1814 1 &
+aprun -d 2 Rscript feature_selection.R 1815 1 &
+aprun -d 2 Rscript feature_selection.R 1816 1 &
+aprun -d 2 Rscript feature_selection.R 1817 1 &
+aprun -d 2 Rscript feature_selection.R 1818 1 &
+aprun -d 2 Rscript feature_selection.R 1819 1 &
+aprun -d 2 Rscript feature_selection.R 1820 1 &
+wait
+8056469.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 1821 1 &
+aprun -d 2 Rscript feature_selection.R 1822 1 &
+aprun -d 2 Rscript feature_selection.R 1823 1 &
+aprun -d 2 Rscript feature_selection.R 1824 1 &
+aprun -d 2 Rscript feature_selection.R 1825 1 &
+aprun -d 2 Rscript feature_selection.R 1826 1 &
+aprun -d 2 Rscript feature_selection.R 1827 1 &
+aprun -d 2 Rscript feature_selection.R 1828 1 &
+aprun -d 2 Rscript feature_selection.R 1829 1 &
+aprun -d 2 Rscript feature_selection.R 1830 1 &
+aprun -d 2 Rscript feature_selection.R 1831 1 &
+aprun -d 2 Rscript feature_selection.R 1832 1 &
+aprun -d 2 Rscript feature_selection.R 1833 1 &
+aprun -d 2 Rscript feature_selection.R 1834 1 &
+aprun -d 2 Rscript feature_selection.R 1835 1 &
+aprun -d 2 Rscript feature_selection.R 1836 1 &
+aprun -d 2 Rscript feature_selection.R 1837 1 &
+aprun -d 2 Rscript feature_selection.R 1838 1 &
+aprun -d 2 Rscript feature_selection.R 1839 1 &
+aprun -d 2 Rscript feature_selection.R 1840 1 &
+wait
+8056470.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 1841 1 &
+aprun -d 2 Rscript feature_selection.R 1842 1 &
+aprun -d 2 Rscript feature_selection.R 1843 1 &
+aprun -d 2 Rscript feature_selection.R 1844 1 &
+aprun -d 2 Rscript feature_selection.R 1845 1 &
+aprun -d 2 Rscript feature_selection.R 1846 1 &
+aprun -d 2 Rscript feature_selection.R 1847 1 &
+aprun -d 2 Rscript feature_selection.R 1848 1 &
+aprun -d 2 Rscript feature_selection.R 1849 1 &
+aprun -d 2 Rscript feature_selection.R 1850 1 &
+aprun -d 2 Rscript feature_selection.R 1851 1 &
+aprun -d 2 Rscript feature_selection.R 1852 1 &
+aprun -d 2 Rscript feature_selection.R 1853 1 &
+aprun -d 2 Rscript feature_selection.R 1854 1 &
+aprun -d 2 Rscript feature_selection.R 1855 1 &
+aprun -d 2 Rscript feature_selection.R 1856 1 &
+aprun -d 2 Rscript feature_selection.R 1857 1 &
+aprun -d 2 Rscript feature_selection.R 1858 1 &
+aprun -d 2 Rscript feature_selection.R 1859 1 &
+aprun -d 2 Rscript feature_selection.R 1860 1 &
+wait
+8056471.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 1861 1 &
+aprun -d 2 Rscript feature_selection.R 1862 1 &
+aprun -d 2 Rscript feature_selection.R 1863 1 &
+aprun -d 2 Rscript feature_selection.R 1864 1 &
+aprun -d 2 Rscript feature_selection.R 1865 1 &
+aprun -d 2 Rscript feature_selection.R 1866 1 &
+aprun -d 2 Rscript feature_selection.R 1867 1 &
+aprun -d 2 Rscript feature_selection.R 1868 1 &
+aprun -d 2 Rscript feature_selection.R 1869 1 &
+aprun -d 2 Rscript feature_selection.R 1870 1 &
+aprun -d 2 Rscript feature_selection.R 1871 1 &
+aprun -d 2 Rscript feature_selection.R 1872 1 &
+aprun -d 2 Rscript feature_selection.R 1873 1 &
+aprun -d 2 Rscript feature_selection.R 1874 1 &
+aprun -d 2 Rscript feature_selection.R 1875 1 &
+aprun -d 2 Rscript feature_selection.R 1876 1 &
+aprun -d 2 Rscript feature_selection.R 1877 1 &
+aprun -d 2 Rscript feature_selection.R 1878 1 &
+aprun -d 2 Rscript feature_selection.R 1879 1 &
+aprun -d 2 Rscript feature_selection.R 1880 1 &
+wait
+8056472.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 1881 1 &
+aprun -d 2 Rscript feature_selection.R 1882 1 &
+aprun -d 2 Rscript feature_selection.R 1883 1 &
+aprun -d 2 Rscript feature_selection.R 1884 1 &
+aprun -d 2 Rscript feature_selection.R 1885 1 &
+aprun -d 2 Rscript feature_selection.R 1886 1 &
+aprun -d 2 Rscript feature_selection.R 1887 1 &
+aprun -d 2 Rscript feature_selection.R 1888 1 &
+aprun -d 2 Rscript feature_selection.R 1889 1 &
+aprun -d 2 Rscript feature_selection.R 1890 1 &
+aprun -d 2 Rscript feature_selection.R 1891 1 &
+aprun -d 2 Rscript feature_selection.R 1892 1 &
+aprun -d 2 Rscript feature_selection.R 1893 1 &
+aprun -d 2 Rscript feature_selection.R 1894 1 &
+aprun -d 2 Rscript feature_selection.R 1895 1 &
+aprun -d 2 Rscript feature_selection.R 1896 1 &
+aprun -d 2 Rscript feature_selection.R 1897 1 &
+aprun -d 2 Rscript feature_selection.R 1898 1 &
+aprun -d 2 Rscript feature_selection.R 1899 1 &
+aprun -d 2 Rscript feature_selection.R 1900 1 &
+wait
+8056473.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 1901 1 &
+aprun -d 2 Rscript feature_selection.R 1902 1 &
+aprun -d 2 Rscript feature_selection.R 1903 1 &
+aprun -d 2 Rscript feature_selection.R 1904 1 &
+aprun -d 2 Rscript feature_selection.R 1905 1 &
+aprun -d 2 Rscript feature_selection.R 1906 1 &
+aprun -d 2 Rscript feature_selection.R 1907 1 &
+aprun -d 2 Rscript feature_selection.R 1908 1 &
+aprun -d 2 Rscript feature_selection.R 1909 1 &
+aprun -d 2 Rscript feature_selection.R 1910 1 &
+aprun -d 2 Rscript feature_selection.R 1911 1 &
+aprun -d 2 Rscript feature_selection.R 1912 1 &
+aprun -d 2 Rscript feature_selection.R 1913 1 &
+aprun -d 2 Rscript feature_selection.R 1914 1 &
+aprun -d 2 Rscript feature_selection.R 1915 1 &
+aprun -d 2 Rscript feature_selection.R 1916 1 &
+aprun -d 2 Rscript feature_selection.R 1917 1 &
+aprun -d 2 Rscript feature_selection.R 1918 1 &
+aprun -d 2 Rscript feature_selection.R 1919 1 &
+aprun -d 2 Rscript feature_selection.R 1920 1 &
+wait
+8056474.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 1921 1 &
+aprun -d 2 Rscript feature_selection.R 1922 1 &
+aprun -d 2 Rscript feature_selection.R 1923 1 &
+aprun -d 2 Rscript feature_selection.R 1924 1 &
+aprun -d 2 Rscript feature_selection.R 1925 1 &
+aprun -d 2 Rscript feature_selection.R 1926 1 &
+aprun -d 2 Rscript feature_selection.R 1927 1 &
+aprun -d 2 Rscript feature_selection.R 1928 1 &
+aprun -d 2 Rscript feature_selection.R 1929 1 &
+aprun -d 2 Rscript feature_selection.R 1930 1 &
+aprun -d 2 Rscript feature_selection.R 1931 1 &
+aprun -d 2 Rscript feature_selection.R 1932 1 &
+aprun -d 2 Rscript feature_selection.R 1933 1 &
+aprun -d 2 Rscript feature_selection.R 1934 1 &
+aprun -d 2 Rscript feature_selection.R 1935 1 &
+aprun -d 2 Rscript feature_selection.R 1936 1 &
+aprun -d 2 Rscript feature_selection.R 1937 1 &
+aprun -d 2 Rscript feature_selection.R 1938 1 &
+aprun -d 2 Rscript feature_selection.R 1939 1 &
+aprun -d 2 Rscript feature_selection.R 1940 1 &
+wait
+8056475.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 1941 1 &
+aprun -d 2 Rscript feature_selection.R 1942 1 &
+aprun -d 2 Rscript feature_selection.R 1943 1 &
+aprun -d 2 Rscript feature_selection.R 1944 1 &
+aprun -d 2 Rscript feature_selection.R 1945 1 &
+aprun -d 2 Rscript feature_selection.R 1946 1 &
+aprun -d 2 Rscript feature_selection.R 1947 1 &
+aprun -d 2 Rscript feature_selection.R 1948 1 &
+aprun -d 2 Rscript feature_selection.R 1949 1 &
+aprun -d 2 Rscript feature_selection.R 1950 1 &
+aprun -d 2 Rscript feature_selection.R 1951 1 &
+aprun -d 2 Rscript feature_selection.R 1952 1 &
+aprun -d 2 Rscript feature_selection.R 1953 1 &
+aprun -d 2 Rscript feature_selection.R 1954 1 &
+aprun -d 2 Rscript feature_selection.R 1955 1 &
+aprun -d 2 Rscript feature_selection.R 1956 1 &
+aprun -d 2 Rscript feature_selection.R 1957 1 &
+aprun -d 2 Rscript feature_selection.R 1958 1 &
+aprun -d 2 Rscript feature_selection.R 1959 1 &
+aprun -d 2 Rscript feature_selection.R 1960 1 &
+wait
+8056477.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 1961 1 &
+aprun -d 2 Rscript feature_selection.R 1962 1 &
+aprun -d 2 Rscript feature_selection.R 1963 1 &
+aprun -d 2 Rscript feature_selection.R 1964 1 &
+aprun -d 2 Rscript feature_selection.R 1965 1 &
+aprun -d 2 Rscript feature_selection.R 1966 1 &
+aprun -d 2 Rscript feature_selection.R 1967 1 &
+aprun -d 2 Rscript feature_selection.R 1968 1 &
+aprun -d 2 Rscript feature_selection.R 1969 1 &
+aprun -d 2 Rscript feature_selection.R 1970 1 &
+aprun -d 2 Rscript feature_selection.R 1971 1 &
+aprun -d 2 Rscript feature_selection.R 1972 1 &
+aprun -d 2 Rscript feature_selection.R 1973 1 &
+aprun -d 2 Rscript feature_selection.R 1974 1 &
+aprun -d 2 Rscript feature_selection.R 1975 1 &
+aprun -d 2 Rscript feature_selection.R 1976 1 &
+aprun -d 2 Rscript feature_selection.R 1977 1 &
+aprun -d 2 Rscript feature_selection.R 1978 1 &
+aprun -d 2 Rscript feature_selection.R 1979 1 &
+aprun -d 2 Rscript feature_selection.R 1980 1 &
+wait
+8056478.bw
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
+aprun -d 2 Rscript feature_selection.R 1981 1 &
+aprun -d 2 Rscript feature_selection.R 1982 1 &
+aprun -d 2 Rscript feature_selection.R 1983 1 &
+aprun -d 2 Rscript feature_selection.R 1984 1 &
+aprun -d 2 Rscript feature_selection.R 1985 1 &
+aprun -d 2 Rscript feature_selection.R 1986 1 &
+aprun -d 2 Rscript feature_selection.R 1987 1 &
+aprun -d 2 Rscript feature_selection.R 1988 1 &
+aprun -d 2 Rscript feature_selection.R 1989 1 &
+aprun -d 2 Rscript feature_selection.R 1990 1 &
+wait

@@ -1,0 +1,24 @@
+"hit_gene","mutation_type","freq","product"
+"fepA.fes","SNP",34,NA
+"gltP.yjcO","Insertion",34,NA
+"rph","Deletion",27,"RNase PH"
+"pyrE.rph","Deletion",13,NA
+"sufB","SNP",4,"SufBC2D Fe-S cluster scaffold complex"
+"pykF","SNP",3,"pyruvate kinase I"
+"yeaJ","Insertion",3,NA
+"sufS","Deletion",3,"L-cysteine desulfurase"
+"proK","SNP",2,"glycine betaine / proline ABC transporter"
+"rpoB","SNP",2,"RNA polymerase sigma 24"
+"sufD","SNP",2,"SufBC2D Fe-S cluster scaffold complex"
+"spoT","SNP",1,"guanosine 3'-diphosphate 5'-triphosphate 3'-diphosphatase [multifunctional]"
+"nusA","Deletion",1,"transcription termination/antitermination L factor"
+"hns.tdk","Insertion",1,NA
+"ydhZ.pykF","SNP",1,NA
+"acpP.fabG","SNP",1,NA
+"ybbD","Deletion",1,"predicted protein"
+"ybdG","SNP",1,"mechanosensitive channel of miniconductance YbdG"
+"trg","SNP",1,"chemotaxis signaling complex - ribose/galactose/glucose sensing"
+"sufC","SNP",1,"SufBC2D Fe-S cluster scaffold complex"
+"ydjJ","SNP",1,"predicted oxidoreductase, Zn-dependent and NAD(P)-binding"
+"prfB","SNP",1,"peptide chain release factor RF2"
+"nikA","SNP",1,"nickel ABC transporter"

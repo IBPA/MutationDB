@@ -1,0 +1,1 @@
+aprun -d 2 python ./Keras_FFN.py 1990 5 &

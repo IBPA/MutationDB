@@ -1,0 +1,20 @@
+#!/bin/bash
+count=0
+echo start > jobID
+#for j in {1..11}
+#do
+j=1
+  for i in {1..1990}
+  do
+    echo $((count++))
+    sed -i "s/feature_selection.R.*/feature_selection.R ${i} ${j} \&/g" one_job.pbs
+    cat one_job.pbs >> SVM_NB.pbs
+    if [[ $((count%20)) -eq 0 ||  $count == 1990 ]]; then
+       echo "wait" >> SVM_NB.pbs
+       sed -i 's///' SVM_NB.pbs
+       qsub ./SVM_NB.pbs >> jobID
+       cat SVM_NB.pbs >> jobID
+       sed -i '10,$d' ./SVM_NB.pbs
+    fi
+  done
+#done 

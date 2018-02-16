@@ -1,0 +1,9 @@
+#!/bin/bash
+# $1 True or False
+#PBS -l nodes=2:ppn=16:xe
+#PBS -l walltime=24:29:01             
+#PBS -e ./log
+#PBS -o ./log
+cd $PBS_O_WORKDIR
+
+
