@@ -1,11 +1,11 @@
-1. Notes for the folders related to ANN:
+1. Folders related to ANN:
 ANN_feature_selection: do backward feature selection using different hyper-parameters.
 ANN_feature_selection3: change one of the hyper-parameters and see how the performance change
 CV_ANN: cross validation using the selected features and optimal hyper-parameters.
 CV_oversampling_ANN: cross validation with the rare class oversampled.
 validation_ANN: do validation on the osmotic condition. 
 
-2. Notes for the folders related to SVM_NB:
+2. Folders related to SVM_NB:
 SVM_NB_feature_selection: do backward feature selection using different hyper-parameters (no hyper-parameters for NB)
 CV_SVM_NB: cross validation using the selected features and optimal hyper-parameters.
 CV_oversampling_SVM_NB: cross validation with  the rare class oversampled.
