@@ -1,5 +1,5 @@
 
-### Summary of the code in src?
+### Summary of the code in src
 The code in each folder does one step of hyper-parameter optimization and cross-valiation. The code for Artificial Neural Network is in Python and the code for SVM and Naive Bayes is in R.
 
 ### Folder structure
