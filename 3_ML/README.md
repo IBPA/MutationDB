@@ -2,6 +2,11 @@
 ### Summary of the code in src
 The code in each folder does one step of hyper-parameter optimization and cross-valiation. The code for Artificial Neural Network is in Python and the code for SVM and Naive Bayes is in R.
 
+### Run prediction
+1. Define a culture condition by fill in the ./out_data/CultureCondition.csv file. Available values for each attribute defining a culture condition can be found in this <a href=http://mutationdb.com/CultureCondition> website</a>
+
+2. run the script ./run_prediction.sh. The prediction result is stored in /out_pred/pred_average.csv
+
 ### Folder structure
 1. Folders related to ANN:
 ANN_feature_selection: do backward feature selection using different hyper-parameters.
@@ -26,7 +31,7 @@ validation_SVM_NB: do validation on the osmotic condition.
 The database for building the predictor is in ./out_data/MLDB.csv; The explored settings for the hyperparameters of ANN, SVM, and NB are in ./out_data/FFN_setting and ./out_data/SVM_NB_setting respectively.
 Intermediate results are stored in the folder out_data.
 
-### Running
+### Preparation
 In each folder of code in Python, there is script for submiting or running the job. The code in R can run in Rstudio after running the script named "Rproject.sh"/"Rproject.bat" to update the paths in the "setpath.R".
 * Step1: Run the feature selection for each method:
   For ANN, run the code in ANN_feature_selection; For SVM and NB, run the code in SVM_NB_feature_selection. The code is run on Blue water. In order to submit each job run submit.pbs in that folders mentioned.
@@ -35,7 +40,7 @@ In each folder of code in Python, there is script for submiting or running the j
 
 ### Support
 
-If you have any questions about DeepPep, please contact Xiaokang wang (kanwang@ucdavis.edu).
+If you have any questions about MutationDB, please contact Xiaokang wang (kanwang@ucdavis.edu).
 
 
 

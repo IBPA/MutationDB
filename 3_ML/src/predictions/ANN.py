@@ -73,4 +73,4 @@ res["genome site"] = df.columns[80:]
 res["probability"] = preds
 
 
-res.to_csv("../../out_pred/ANN.pred.csv", index = False)
+res.to_csv("../../out_pred/pred_ANN.csv", index = False)
