@@ -5,7 +5,7 @@ The code in each folder does one step of hyper-parameter optimization and cross-
 ### Run prediction
 1. Define a culture condition by fill in the ./out_data/CultureCondition.csv file. Available values for each attribute defining a culture condition can be found in this <a href=http://mutationdb.com/CultureCondition> website</a>
 
-2. run the script ./run_prediction.sh. The prediction result is stored in /out_pred/pred_average.csv
+2. run the script ./run_prediction.sh. The prediction result is stored in /out_pred/pred_average.csv. (The code can not be run on windows)
 
 ### Folder structure
 1. Folders related to ANN:
@@ -34,7 +34,7 @@ Intermediate results are stored in the folder out_data.
 ### Preparation
 In each folder of code in Python, there is script for submiting or running the job. The code in R can run in Rstudio after running the script named "Rproject.sh"/"Rproject.bat" to update the paths in the "setpath.R".
 * Step1: Run the feature selection for each method:
-  For ANN, run the code in ANN_feature_selection; For SVM and NB, run the code in SVM_NB_feature_selection. The code is run on Blue water. In order to submit each job run submit.pbs in that folders mentioned.
+  For ANN, run the code in ANN_feature_selection; For SVM and NB, run the code in SVM_NB_feature_selection. The code is run on Blue Waters. In order to submit each job run submit.pbs in that folders mentioned.
 
 * Step2: Cross validation was conducted using selected features and optimal hyper-parameters.
 
