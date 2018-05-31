@@ -3,9 +3,9 @@
 The code in each folder does one step of hyper-parameter optimization and cross-valiation. The code for Artificial Neural Network is in Python and the code for SVM and Naive Bayes is in R.
 
 ### Run prediction
-1. Define a culture condition by fill in the ./out_data/CultureCondition.csv file. Available values for each attribute defining a culture condition can be found in this <a href=http://mutationdb.com/CultureCondition> website</a>
+1. Define a culture condition by filling in the ./out_data/CultureCondition.csv file. Available values for each attribute defining a culture condition can be found in this <a href=http://mutationdb.com/CultureCondition> website.</a>
 
-2. run the script ./run_prediction.sh. The prediction result is stored in /out_pred/pred_average.csv. (The code can not be run on windows)
+2. Run the script ./run_prediction.sh. The prediction result is stored in the file, /out_pred/pred_average.csv. (The code can not be run on windows)
 
 ### Folder structure
 1. Folders related to ANN:
